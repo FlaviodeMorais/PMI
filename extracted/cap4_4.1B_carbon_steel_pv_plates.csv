@@ -1,0 +1,90 @@
+﻿Section,Standard Designation,"Grade, Class, Type, Symbol, or Name",Steel Number,UNS Number,"Section Thickness t, mm","t, in.",C,Mn,Si,P,S,Cr,Ni,Mo,Others
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,EN 10028-2:1992,P235GH,1.0345,---,---,---,0.16,0.60-1.20,0.35,0.025,0.015,0.30,0.30,0.08,Cu 0.30; Nb 0.020; Ti 0.03; V 0.02; Al ≥ 0.020; N 0.012; Cr+Cu+Mo+Ni 0.70
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ISO 9328-2:1991,P 235 PH 235,---,---,---,---,0.17,0.40-1.20,0.35,0.035,0.030,0.30,0.30,0.08,Cu 0.30; Al ≥ 0.020; Cr+Cu+Mo+Ni 0.70
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,EN 10028-3:2003,P275NH,1.0487,---,---,---,0.16,0.80-1.50,0.40,0.025,0.015,0.30,0.30,0.08,Cu 0.30; Nb 0.05; Ti 0.03; V 0.05; N 0.012; Al ≥ 0.020; Nb+Ti+V 0.05; Cr+Cu+Mo0.45
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,JIS G 3115:2000,SPV235,---,---,≤ 100,---,0.18,1.40,0.15-0.35,0.030,0.030,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,JIS G 3115:2000,,,,> 100,---,0.20,1.40,0.15-0.35,0.030,0.030,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,JIS G 3103:1987,SB 410,---,---,≤ 25,---,0.24,0.90,0.15-0.30,0.035,0.040,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,JIS G 3103:1987,,,,25 < t ≤ 50,---,0.27,0.90,0.15-0.30,0.035,0.040,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,JIS G 3103:1987,,,,50 < t ≤ 200,---,0.30,0.90,0.15-0.30,0.035,0.040,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,JIS G 3118:2000,SGV410,---,---,≤ 12.5,---,0.21,0.85-1.20,0.15-0.40,0.030,0.030,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,JIS G 3118:2000,,,,12.5 < t ≤ 50,---,0.23,0.85-1.20,0.15-0.40,0.030,0.030,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,JIS G 3118:2000,,,,50 < t ≤ 100,---,0.25,0.85-1.20,0.15-0.40,0.030,0.030,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,JIS G 3118:2000,,,,100 < t ≤ 200,---,0.27,0.85-1.20,0.15-0.40,0.030,0.030,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,EN 10028-2:2003,P265GH,1.0425,---,---,---,0.20,0.80-1.40,0.40,0.025,0.015,0.30,0.30,0.08,Cu 0.30; Nb 0.020; Ti 0.03; V 0.02; Al ≥ 0.020; N 0.012; Cr+Cu+Mo+Ni 0.70
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ISO 9328-2:1991,P 265 PH 265,---,---,---,---,0.20,0.50-1.40,0.35,0.035,0.030,0.30,0.30,0.08,Cu 0.30; Al ≥ 0.020; Cr+Cu+Mo+Ni 0.70
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 515/A 515M-03,60 [415],---,K02401,≤ 25,≤ 1,0.24,0.90,0.15-0.40,0.035,0.035,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 515/A 515M-03,,,,25 < t ≤ 50,1 < t ≤ 2,0.27,0.90,0.15-0.40,0.035,0.035,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 515/A 515M-03,,,,50 < t ≤ 100,2 < t ≤ 4,0.29,0.90,0.15-0.40,0.035,0.035,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 515/A 515M-03,,,,100 < t ≤ 200,4 < t ≤ 8,0.31,0.90,0.15-0.40,0.035,0.035,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 515/A 515M-03,,,,> 200,> 8,0.31,0.90,0.15-0.40,0.035,0.035,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 516/A 516M-03,60 [415],---,K02100,≤ 12.5,≤ ½,0.21,0.60-0.90,0.15-0.40,0.035,0.035,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 516/A 516M-03,,,,12.5 < t ≤ 50,½ < t ≤ 2,0.23,0.85-1.20,0.15-0.40,0.035,0.035,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 516/A 516M-03,,,,50 < t ≤ 100,2 < t ≤ 4,0.25,0.85-1.20,0.15-0.40,0.035,0.035,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 516/A 516M-03,,,,100 < t ≤ 200,4 < t ≤ 8,0.27,0.85-1.20,0.15-0.40,0.035,0.035,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 516/A 516M-03,,,,> 200,> 8,0.27,0.85-1.20,0.15-0.40,0.035,0.035,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ISO 9328-4:1991,P 315 TN PH 315 TN,---,---,---,---,0.18,0.70-1.50,0.10-0.40,0.035,0.035,0.30,0.30,0.08,Cu 0.30; Nb 0.05; Ti 0.03; V 0.05; N 0.020; Al ≥ 0.020; Nb+Ti+V 0.05; Cr+Cu+Mo 0.45
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ISO 9328-4:1991,PL 315 TN,---,---,---,---,0.16,0.70-1.50,0.10-0.40,0.030,0.030,,,,
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 515/A 515M-03,65 [450],---,K02800,≤ 25,≤ 1,0.28,0.90,0.15-0.40,0.035,0.035,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 515/A 515M-03,,,,25 < t ≤ 50,1 < t ≤ 2,0.31,0.90,0.15-0.40,0.035,0.035,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 515/A 515M-03,,,,50 < t ≤ 100,2 < t ≤ 4,0.33,0.90,0.15-0.40,0.035,0.035,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 515/A 515M-03,,,,100 < t ≤ 200,4 < t ≤ 8,0.33,0.90,0.15-0.40,0.035,0.035,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 515/A 515M-03,,,,> 200,> 8,0.33,0.90,0.15-0.40,0.035,0.035,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 516/A 516M-03,65 [450],---,K02403,≤ 12.5,≤ ½,0.24,0.85-1.20,0.15-0.40,0.035,0.035,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 516/A 516M-03,,,,12.5 < t ≤ 50,½ < t ≤ 2,0.26,0.85-1.20,0.15-0.40,0.035,0.035,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 516/A 516M-03,,,,50 < t ≤ 100,2 < t ≤ 4,0.28,0.85-1.20,0.15-0.40,0.035,0.035,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 516/A 516M-03,,,,100 < t ≤ 200,4 < t ≤ 8,0.29,0.85-1.20,0.15-0.40,0.035,0.035,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 516/A 516M-03,,,,> 200,> 8,0.29,0.85-1.20,0.15-0.40,0.035,0.035,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,JIS G 3103:1987,SB 450,---,---,≤ 25,---,0.28,0.90,0.15-0.30,0.035,0.040,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,JIS G 3103:1987,,,,25 < t ≤ 50,---,0.31,0.90,0.15-0.30,0.035,0.040,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,JIS G 3103:1987,,,,50 < t ≤ 100,---,0.33,0.90,0.15-0.40,0.035,0.040,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,JIS G 3118:2000,SGV450,---,---,≤ 12.5,---,0.24,0.85-1.20,0.15-0.40,0.030,0.030,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,JIS G 3118:2000,,,,12.5 < t ≤ 50,---,0.26,0.85-1.20,0.15-0.40,0.030,0.030,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,JIS G 3118:2000,,,,50 < t ≤ 100,---,0.28,0.85-1.20,0.15-0.40,0.030,0.030,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,JIS G 3118:2000,,,,100 < t ≤ 200,---,0.29,0.85-1.20,0.15-0.40,0.030,0.030,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,EN 10028-2:2003,P295GH,1.0481,---,---,---,0.08-0.20,0.90-1.50,0.40,0.025,0.015,0.30,0.30,0.08,Cu 0.30; Nb 0.020; Ti 0.03; V 0.02; Al ≥ 0.020; N 0.012; Cr+Cu+Mo+Ni 0.70
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ISO 9328-2:1991,P 290,---,---,---,---,0.20,0.90-1.50,0.40,0.035,0.030,0.30,0.30,0.08,Cu 0.30; Al ≥ 0.020; Cr+Cu+Mo+Ni 0.70
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ISO 9328-2:1991,PH 290,---,---,---,---,0.14-0.20,,,,,,,,
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,JIS G 3103:1987,SB 480,---,---,≤ 25,---,0.31,0.90,0.15-0.30,0.035,0.040,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,JIS G 3103:1987,,,,25 < t ≤ 50,---,0.33,0.90,0.15-0.30,0.035,0.040,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,JIS G 3103:1987,,,,50 < t ≤ 200,---,0.35,0.90,0.15-0.30,0.035,0.040,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,JIS G 3118:2000,SGV480,---,---,≤ 12.5,---,0.27,0.85-1.20,0.15-0.40,0.030,0.030,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,JIS G 3118:2000,,,,12.5 < t ≤ 50,---,0.28,0.85-1.20,0.15-0.40,0.030,0.030,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,JIS G 3118:2000,,,,50 < t ≤ 100,---,0.30,0.85-1.20,0.15-0.40,0.030,0.030,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,JIS G 3118:2000,,,,100 < t ≤ 200,---,0.31,0.85-1.20,0.15-0.40,0.030,0.030,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 515/A 515M-03,70 [485],---,K03101,≤ 25,≤ 1,0.31,1.20,0.15-0.40,0.035,0.035,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 515/A 515M-03,,,,25 < t ≤ 50,1 < t ≤ 2,0.33,1.20,0.15-0.40,0.035,0.035,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 515/A 515M-03,,,,50 < t ≤ 100,2 < t ≤ 4,0.35,1.20,0.15-0.40,0.035,0.035,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 515/A 515M-03,,,,100 < t ≤ 200,4 < t ≤ 8,0.35,1.20,0.15-0.40,0.035,0.035,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 515/A 515M-03,,,,> 200,> 8,0.35,1.20,0.15-0.40,0.035,0.035,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 516/A 516M-03,70 [485],---,K02700,≤ 12.5,≤ ½,0.27,0.85-1.20,0.15-0.40,0.035,0.035,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 516/A 516M-03,,,,12.5 < t ≤ 50,½ < t ≤ 2,0.28,0.85-1.20,0.15-0.40,0.035,0.035,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 516/A 516M-03,,,,50 < t ≤ 100,2 < t ≤ 4,0.30,0.85-1.20,0.15-0.40,0.035,0.035,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 516/A 516M-03,,,,100 < t ≤ 200,4 < t ≤ 8,0.31,0.85-1.20,0.15-0.40,0.035,0.035,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 516/A 516M-03,,,,> 200,> 8,0.31,0.85-1.20,0.15-0.40,0.035,0.035,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 537/A 537M-95 (2000),1,---,K12437,≤ 40,≤ 1½,0.24,0.70-1.35,0.15-0.50,0.035,0.035,0.25,0.25,0.08,Cu 0.35
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 537/A 537M-95 (2000),,,,> 40,> 1½,,1.00-1.60,,,,,,,
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 737/A 737M-99,B,---,K12001,---,---,0.20,1.15-1.50,0.15-0.50,0.035,0.030,---,---,---,Cb 0.05
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,JIS G 3115:2000,SPV315,---,---,---,---,0.18,1.60,0.15-0.55,0.030,0.030,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ISO 9328-2:1991,P 315,---,---,---,---,0.20,0.90-1.60,0.10-0.50,0.035,0.030,0.30,0.30,0.08,Cu 0.30; Al ≥ 0.020; Cr+Cu+Mo+Ni 0.70
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ISO 9328-2:1991,PH 315,---,---,---,---,0.15-0.20,,,,,,,,
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,JIS G 3124:1987,SEV 245,---,---,6 ≤ t ≤ 150,---,0.20,0.80-1.60,0.15-0.60,0.035,0.035,---,---,0.35,Cu 0.35; Nb 0.05; V 0.10
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,EN 10028-2:2003,P355GH,1.0473,---,---,---,0.10-0.22,1.10-1.70,0.60,0.025,0.015,0.30,0.30,0.08,Cu 0.30; Nb 0.020; Ti 0.03; V 0.02; Al ≥ 0.020; N 0.012; Cr+Cu+Mo+Ni 0.70
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ISO 9328-2:1991,P 355,---,---,---,---,0.22,0.90-1.60,0.10-0.50,0.035,0.030,0.30,0.30,0.08,Al 0.020; Cu 0.30
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ISO 9328-2:1991,PH 355,---,---,---,---,0.15-0.22,0.90-1.60,0.10-0.50,0.035,0.030,0.30,0.30,0.08,Al 0.020; Cu 0.30
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 738/A 738M-03a,A,---,K12447,≤ 65,≤ 2½,0.24,1.50,0.15-0.50,0.035,0.035,0.25,0.50,0.08,Cu 0.35; V 0.07; Cb 0.04; Cb+V 0.08
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 738/A 738M-03a,,,,> 65,> 2½,0.24,1.60,0.15-0.50,0.035,0.035,0.25,0.50,0.08,Cu 0.35; V 0.07; Cb 0.04; Cb+V 0.08
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,JIS G 3115:2000,SPV 355,---,---,---,---,0.20,1.60,0.15-0.55,0.030,0.030,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 537/A 537M-95 (2000),2,---,K12437,≤ 40,≤ 1½,0.24,0.70-1.35,0.15-0.50,0.035,0.035,0.25,0.25,0.08,Cu 0.35
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 537/A 537M-95 (2000),,,,> 40,> 1½,,1.00-1.60,,,,,,,
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 537/A 537M-95 (2000),3,---,K12437,≤ 40,≤ 1½,0.24,0.70-1.35,0.15-0.50,0.035,0.035,0.25,0.25,0.08,Cu 0.35
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 537/A 537M-95 (2000),,,,> 40,> 1½,,1.00-1.60,,,,,,,
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 737/A 737M-99,C,---,K12202,---,---,0.22,1.15-1.50,0.10-0.55,0.035,0.030,---,---,---,V 0.04-0.11; N 0.03
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 738/A 738M-03a,C,---,---,≤ 65,≤ 2½,0.20,1.50,0.15-0.50,0.025,0.025,0.25,0.50,0.08,Cu 0.35; V 0.05
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 738/A 738M-03a,,,,> 65,> 2½,,1.60,,,,,,,
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,JIS G 3115:2003,SPV410,---,---,---,---,0.18,1.60,0.15-0.75,0.030,0.030,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 612/A 612M-03,---,---,K02900,---,---,0.25,1.00-1.50,0.15-0.50,0.035,0.025,0.25,0.25,0.08,Cu 0.35; V 0.08
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,JIS G 3115:2003,SPV450,---,---,---,---,0.18,1.60,0.15-0.75,0.030,0.030,---,---,---,---
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 738/A 738M-03a,B,---,K12001,≤ 40,≤ 1½,0.20,0.90-1.50,0.15-0.55,0.030,0.030,0.30,0.60,0.20,Cu 0.35; V 0.07; Cb 0.04; Cb+V 0.08
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 738/A 738M-03a,,,,40 ≤ t ≤ 65,1½ ≤ t ≤ 2½,0.20,0.90-1.50,0.15-0.55,0.030,0.030,0.30,0.60,0.30,
+4.1B Chemical Composition of Carbon Steel Pressure Vessel Plates,ASTM A 738/A 738M-03a,,,,> 65,> 2½,0.20,0.90-1.60,0.15-0.55,0.030,0.030,0.30,0.60,0.30,

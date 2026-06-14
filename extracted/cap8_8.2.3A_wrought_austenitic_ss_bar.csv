@@ -1,0 +1,100 @@
+﻿Section,Standard Designation,"Grade, Class, Type, Symbol or Name",Steel Number,UNS Number,C,Mn,Si,P,S,Cr,Ni,Mo,Others
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),ASTM A 276-03,201,---,S20100,0.15,5.5-7.5,1.00,0.060,0.030,16.0-18.0,3.5-5.5,---,N 0.25
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4303:1998,SUS201,---,---,0.15,5.50-7.50,1.00,0.060,0.030,16.00-18.00,3.50-5.50,---,N 0.25
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),ASTM A 276-03,202,---,S20200,0.15,7.5-10.0,1.00,0.060,0.030,17.0-19.0,4.0-6.0,---,N 0.25
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4303:1998,SUS202,---,---,0.15,7.50-10.00,1.00,0.060,0.030,17.00-19.00,4.00-6.00,---,N 0.25
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4303:1998,SUS301,---,---,0.15,2.00,1.00,0.045,0.030,16.00-18.00,6.00-8.00,---,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),EN 10088-3:1995,X10CrNi18-8,1.4310,---,0.05-0.15,2.00,2.00,0.045,0.015,16.00-19.00,6.00-9.50,0.80,N 0.11
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),ASTM A 276-03,302,---,S30200,0.15,2.00,1.00,0.045,0.030,17.0-19.0,8.0-10.0,---,N 0.10
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4303:1998,SUS302,---,---,0.15,2.00,0.75,0.045,0.030,17.00-19.00,8.00-10.00,---,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4318:1998,SUS302,---,---,0.15,2.00,0.75,0.045,0.030,17.00-19.00,8.00-10.00,---,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),ASTM A 582/A 582M-95b (2000),303,---,S30300,0.15,2.00,1.00,0.20,0.15 min,17.00-19.00,8.00-10.00,---,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4303:1998,SUS303,---,---,0.15,2.00,1.00,0.20,0.15 min,17.00-19.00,8.00-10.00,0.60,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4318:1998,SUS303,---,---,0.15,2.00,1.00,0.20,0.15 min,17.00-19.00,8.00-10.00,0.60,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),EN 10088-3:1995,X8CrNiS18-9,1.4305,---,0.10,2.00,1.00,0.045,0.15-0.35,17.00-19.00,8.00-10.00,---,N 0.11; Cu 1.00
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),ASTM A 582/A 582M-95b (2000),303Se,---,S30323,0.15,2.00,1.00,0.20,0.06,17.00-19.00,8.00-10.00,---,Se 0.15 min
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4303:1998,SUS303Se,---,---,0.15,2.00,1.00,0.20,0.06,17.00-19.00,8.00-10.00,0.60,Se 0.15 min
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4318:1998,SUS303Se,---,---,0.15,2.00,1.00,0.20,0.06,17.00-19.00,8.00-10.00,0.60,Se 0.15 min
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),ASTM A 276-03,304,---,S30400,0.08,2.00,1.00,0.045,0.030,18.0-20.0,8.0-11.0,---,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4303:1998,SUS304,---,---,0.08,2.00,1.00,0.045,0.030,18.00-20.00,8.00-10.50,---,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4311:1991,SUS304,---,---,0.08,2.00,1.00,0.045,0.030,18.00-20.00,8.00-10.50,---,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4318:1998,SUS304,---,---,0.08,2.00,1.00,0.045,0.030,18.00-20.00,8.00-10.50,---,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),EN 10088-3:1995,X5CrNi18-10,1.4301,---,0.07,2.00,1.00,0.045,0.030,17.00-19.50,8.00-10.50,---,N 0.11
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),ASTM A 276-03,304L,---,S30403,0.030,2.00,1.00,0.045,0.030,18.0-20.0,8.0-12.0,---,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4303:1998,SUS304L,---,---,0.030,2.00,1.00,0.045,0.030,18.00-20.00,9.00-13.00,---,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4318:1998,SUS304L,---,---,0.030,2.00,1.00,0.045,0.030,18.00-20.00,9.00-13.00,---,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),EN 10088-3:1995,X2CrNi18-9,1.4307,---,0.030,2.00,1.00,0.045,0.030,17.50-19.50,8.00-10.00,---,N 0.11
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),ASTM A 276-03,304N,---,S30451,0.08,2.00,1.00,0.045,0.030,18.0-20.0,8.0-11.0,---,N 0.10-0.16
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4303:1998,SUS304N1,---,---,0.08,2.50,1.00,0.045,0.030,18.00-20.00,7.00-10.50,---,N 0.10-0.25
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),ASTM A 276-03,304LN,---,S30453,0.030,2.00,1.00,0.045,0.030,18.0-20.0,8.0-11.0,---,N 0.10-0.16
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4303:1998,SUS304LN,---,---,0.030,2.00,1.00,0.045,0.030,17.00-19.00,8.50-11.50,---,N 0.12-0.22
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),EN 10088-3:1995,X2CrNiN18-10,1.4311,---,0.030,2.00,1.00,0.045,0.030,17.00-19.50,8.50-11.50,---,N 0.12-0.22
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),ASTM A 276-03,XM-21,---,S30452,0.08,2.00,1.00,0.045,0.030,18.0-20.0,8.0-10.0,---,N 0.16-0.30
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4303:1998,SUS304N2,---,---,0.08,2.50,1.00,0.045,0.030,18.00-20.00,7.50-10.50,---,N 0.15-0.30; Nb 0.15
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),ASTM A 276-03,305,---,S30500,0.12,2.00,1.00,0.045,0.030,17.0-19.0,11.0-13.0,---,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4303:1998,SUS305,---,---,0.12,2.00,1.00,0.045,0.030,17.00-19.00,10.50-13.00,---,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4318:1998,SUS305,---,---,0.12,2.00,1.00,0.045,0.030,17.00-19.00,10.50-13.00,---,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),EN 10088-3:1995,X4CrNi18-12,1.4303,---,0.06,2.00,1.00,0.045,0.030,17.00-19.00,11.00-13.00,---,N 0.11
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),ASTM A 276-03,309S,---,S30908,0.08,2.00,1.00,0.045,0.030,22.0-24.0,12.0-15.0,---,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4303:1998,SUS309S,---,---,0.08,2.00,1.00,0.045,0.030,22.00-24.00,12.00-15.00,---,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4311:1991,SUS309S,---,---,0.08,2.00,1.00,0.045,0.030,22.00-24.00,12.00-15.00,---,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4318:1998,SUS309S,---,---,0.08,2.00,1.00,0.045,0.030,22.00-24.00,12.00-15.00,---,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),ISO 4955:1994,X6CrNi23-14,---,---,0.08,2.0,1.0,0.045,0.030,22.0-24.0,12.0-15.0,---,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),ASTM A 276-03,310S,---,S31008,0.08,2.00,1.50,0.045,0.30,24.0-26.0,19.0-22.0,---,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4303:1998,SUS310S,---,---,0.08,2.00,1.50,0.045,0.030,24.00-26.00,19.00-22.00,---,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4311:1991,SUS310S,---,---,0.08,2.00,1.50,0.045,0.030,24.00-26.00,19.00-22.00,---,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4318:1998,SUS310S,---,---,0.08,2.00,1.50,0.045,0.030,24.00-26.00,19.00-22.00,---,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),ISO 4955:1994,X6CrNi25-21,---,---,0.08,2.0,1.5,0.045,0.030,24.0-26.0,19.0-22.0,---,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),ASTM A 276-03,316,---,S31600,0.08,2.00,1.00,0.045,0.030,16.0-18.0,10.0-14.0,2.00-3.00,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4303:1998,SUS316,---,---,0.08,2.00,1.00,0.045,0.030,16.00-18.00,10.00-14.00,2.00-3.00,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4311:1991,SUS316,---,---,0.08,2.00,1.00,0.045,0.030,16.00-18.00,10.00-14.00,2.00-3.00,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4318:1998,SUS316,---,---,0.08,2.00,1.00,0.045,0.030,16.00-18.00,10.00-14.00,2.00-3.00,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),EN 10088-3:1995,X5CrNiMo17-12-2,1.4401,---,0.07,2.00,1.00,0.045,0.030,16.50-18.50,10.00-13.00,2.00-2.50,N 0.11
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),EN 10088-3:1995,X3CrNiMo17-13-3,1.4436,---,0.05,2.00,1.00,0.045,0.030,16.50-18.50,10.50-13.00,2.50-3.00,N 0.11
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),ASTM A 276-03,316L,---,S31603,0.030,2.00,1.00,0.045,0.030,16.0-18.0,10.0-14.0,2.00-3.00,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4303:1998,SUS316L,---,---,0.030,2.00,1.00,0.045,0.030,16.00-18.00,12.00-15.00,2.00-3.00,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4318:1998,SUS316L,---,---,0.030,2.00,1.00,0.045,0.030,16.00-18.00,12.00-15.00,2.00-3.00,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),EN 10088-3:1995,X2CrNiMo17-12-2,1.4404,---,0.030,2.00,1.00,0.045,0.030,16.50-18.50,10.00-13.00,2.00-2.50,N 0.11
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),EN 10088-3:1995,X2CrNiMo17-12-3,1.4432,---,0.030,2.00,1.00,0.045,0.030,16.50-18.50,10.50-13.00,2.50-3.00,N 0.11
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),EN 10088-3:1995,X2CrNiMo18-14-3,1.4435,---,0.030,2.00,1.00,0.045,0.030,17.00-19.00,12.50-15.00,2.50-3.00,N 0.11
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),ASTM A 276-03,316N,---,S31651,0.08,2.00,1.00,0.045,0.030,16.0-18.0,10.0-14.0,2.00-3.00,N 0.10-0.16
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4303:1998,SUS316N,---,---,0.08,2.00,1.00,0.045,0.030,16.00-18.00,10.00-14.00,2.00-3.00,N 0.10-0.22
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),ASTM A 276-03,316LN,---,S31653,0.030,2.00,1.00,0.045,0.030,16.0-18.0,10.0-13.0,2.00-3.00,N 0.10-0.16
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4303:1998,SUS316LN,---,---,0.030,2.00,1.00,0.045,0.030,16.50-18.50,10.50-14.50,2.00-3.00,N 0.12-0.22
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),EN 10088-3:1995,X2CrNiMoN17-11-2,1.4406,---,0.030,2.00,1.00,0.045,0.030,16.50-18.50,10.00-12.00,2.00-2.50,N 0.12-0.22
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),EN 10088-3:1995,X2CrNiMoN17-13-3,1.4429,---,0.030,2.00,1.00,0.045,0.015,16.50-18.50,11.00-14.00,2.50-3.00,N 0.12-0.22
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),ASTM A 276-03,316Ti,---,S31635,0.08,2.00,1.00,0.045,0.030,16.0-18.0,10.0-14.0,2.00-3.00,N 0.10; Ti 5 x(C+N) to 0.70
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4303:1998,SUS316Ti,---,---,0.08,2.00,1.00,0.045,0.030,16.00-18.00,10.00-14.00,2.00-3.00,Ti 5 x C min
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4311:1991,SUS316Ti,---,---,0.08,2.00,1.00,0.045,0.030,16.00-18.00,10.00-14.00,2.00-3.00,Ti 5 x C min
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),EN 10088-3:1995,X6CrNiMoTi17-12-2,1.4571,---,0.08,2.00,1.00,0.045,0.030,16.50-18.50,10.50-13.50,2.0-2.50,Ti 5 x C to 0.70
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),ASTM A 276-03,317,---,S31700,0.08,2.00,1.00,0.045,0.030,18.0-20.0,11.0-15.0,3.0-4.0,N 0.10
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4303:1998,SUS317,---,---,0.08,2.00,1.00,0.045,0.030,18.00-20.00,11.00-15.00,3.00-4.00,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4311:1991,SUS317,---,---,0.08,2.00,1.00,0.045,0.030,18.00-20.00,11.00-15.00,3.00-4.00,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4303:1998,SUS317L,---,---,0.030,2.00,1.00,0.045,0.030,18.00-20.00,11.00-15.00,3.00-4.00,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),EN 10088-3:1995,X2CrNiMo18-15-4,1.4438,---,0.030,2.00,1.00,0.045,0.030,17.50-19.50,13.00-16.00,3.00-4.00,N 0.11
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4303:1998,SUS 317J1,---,---,0.040,2.50,1.00,0.045,0.030,16.00-19.00,15.00-17.00,4.00-6.00,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),EN 10088-3:1995,X2CrNiMoN17-13-5,1.4439,---,0.030,2.00,1.00,0.045,0.015,16.50-18.50,12.50-14.50,4.00-5.00,N 0.12-0.22
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),ASTM B 691-02,---,---,N08367,0.030,2.00,1.00,0.040,0.030,20.00-22.00,23.50-25.50,6.00-7.00,N 0.18-0.25; Cu 0.75
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4303:1998,SUS836L,---,---,0.030,2.00,1.00,0.045,0.030,19.00-24.00,24.00-26.00,5.00-7.00,N 0.25
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),ASTM B 649-02,---,---,N08904,0.020,2.00,1.00,0.045,0.035,19.00-23.00,23.00-28.00,4.00-5.00,Cu 1.0-2.0
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4303:1998,SUS890L,---,---,0.020,2.00,1.00,0.045,0.030,19.00-23.00,23.00-28.00,4.00-5.00,Cu 1.00-2.00
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),EN 10088-3:1995,X1NiCrMoCu25-20-5,1.4539,---,0.020,2.00,0.70,0.030,0.010,19.00-21.00,24.00-26.00,4.00-5.00,N 0.15; Cu 1.20-2.00
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),ASTM A 276-03,321,---,S32100,0.08,2.00,1.00,0.045,0.030,17.0-19.0,9.0-12.0,---,Ti 5 x (C+N) to 0.70
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4303:1998,SUS321,---,---,0.08,2.00,1.00,0.045,0.030,17.00-19.00,9.00-13.00,---,Ti 5 x C min
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4318:1998,SUS321,---,---,0.08,2.00,1.00,0.045,0.030,17.00-19.00,9.00-13.00,---,Ti 5 x C min
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4311:1991,SUS321,---,---,0.08,2.00,1.00,0.045,0.030,17.00-19.00,9.00-13.00,---,Ti 5 x C min
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),EN 10088-3:1995,X6CrNiTi18-10,1.4541,---,0.08,2.00,1.00,0.045,0.030,17.00-19.00,9.00-12.00,---,Ti 5 x C to 0.70
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),ISO 4955:1994,X7CrNiTi18-10,---,---,0.040-0.10,2.0,1.0,0.045,0.030,17.0-19.0,9.0-12.0,---,Ti 5 x C to 0.80
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),ASTM A 276-03,347,---,S34700,0.08,2.00,1.00,0.045,0.030,17.0-19.0,9.0-12.0,---,Cb 10 x C to 1.10
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4303:1998,SUS347,---,---,0.08,2.00,1.00,0.045,0.030,17.00-19.00,9.00-13.00,---,Nb 10 x C min
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4311:1991,SUS347,---,---,0.08,2.00,1.00,0.045,0.030,17.00-19.00,9.00-13.00,---,Nb 10 x C min
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4318:1998,SUS347,---,---,0.08,2.00,1.00,0.045,0.030,17.00-19.00,9.00-13.00,---,Nb 10 x C min
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),EN 10088-3:1995,X6CrNiNb18-10,1.4550,---,0.08,2.00,1.00,0.045,0.015,17.00-19.00,9.00-12.00,---,Nb 10 x C to 1.00
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),ISO 4955:1994,X7CrNiNb18-10,---,---,0.040-0.10,2.0,1.0,0.045,0.030,17.0-19.0,9.0-12.0,---,Nb 10 x C to 1.2
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),ASTM A 276-03,309,---,S30900,0.20,2.00,1.00,0.045,0.030,22.0-24.0,12.0-15.0,---,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4311:1991,SUH309,---,---,0.20,2.00,1.00,0.040,0.030,22.00-24.00,12.00-15.00,---,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),EN 10095:1999,X12CrNi23-13,1.4833,---,0.15,2.00,1.00,0.045,0.015,22.00-24.00,12.00-14.00,---,N 0.11
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),ASTM A 276-03,310,---,S31000,0.25,2.00,1.50,0.045,0.030,24.0-26.0,19.0-22.0,---,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),JIS G 4311:1991,SUH310,---,---,0.25,2.00,1.50,0.040,0.030,24.00-26.00,19.00-22.00,---,---
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),EN 10095:1999,X15CrNiSi25-21,1.4841,---,0.20,2.00,1.50-2.50,0.045,0.015,24.00-26.00,19.00-22.00,---,N 0.11
+8.2.3A Chemical Composition of Austenitic Stainless Steels (Bar),ISO 4955:1994,X15CrNiSi25-21,---,---,0.20,2.0,1.5-2.5,0.045,0.030,24.0-26.0,19.0-22.0,---,---

@@ -1,0 +1,20 @@
+﻿Section,Standard Designation,"Grade, Class, Type, Symbol or Name",Steel Number,UNS Number,C,Mn,Si,P,S,Cr,Ni,Mo,Others
+9.4.1 Chemical Composition of Bearing Steels,ASTM A 295-98,52100,---,---,0.93-1.05,0.25-0.45,0.15-0.35,0.025,0.015,1.35-1.60,0.25,0.10,Cu 0.30; Al 0.050; O 0.0015
+9.4.1 Chemical Composition of Bearing Steels,JIS G 4805:1999,SUJ 2,---,---,0.95-1.10,0.50,0.15-0.35,0.025,0.025,1.30-1.60,0.25,0.08,Cu 0.25
+9.4.1 Chemical Composition of Bearing Steels,ISO 683-17:1999,"B1, 100Cr6",---,---,0.93-1.05,0.25-0.45,0.15-0.35,0.025,0.015,1.35-1.60,---,0.10,Cu 0.30; Al 0.050; O 0.0015
+9.4.1 Chemical Composition of Bearing Steels,ASTM A 485-03,1,---,K19667,0.90-1.05,0.90-1.20,0.45-0.75,0.025,0.015,0.90-1.20,0.25,0.10,Cu 0.30; Al 0.050; O 0.0015; Ti 0.0050
+9.4.1 Chemical Composition of Bearing Steels,ASTM A 485-03,"B2, 100CrMnSi4-4",---,---,0.93-1.05,0.90-1.20,0.45-0.75,0.025,0.015,0.90-1.20,---,0.10,Cu 0.30; Al 0.050; O 0.0015
+9.4.1 Chemical Composition of Bearing Steels,JIS G 4805:1999,SUJ 3,---,---,0.95-1.10,0.90-1.15,0.40-0.70,0.025,0.025,0.90-1.20,0.25,0.08,Cu 0.25
+9.4.1 Chemical Composition of Bearing Steels,ISO 683-17:1999,"B2, 100CrMnSi4-4",---,---,0.93-1.05,0.90-1.20,0.45-0.75,0.025,0.015,0.90-1.20,---,0.10,Cu 0.30; Al 0.050; O 0.0015
+9.4.1 Chemical Composition of Bearing Steels,ASTM A 485-03,"B3, 100CrMnSi6-4",---,---,0.93-1.05,1.00-1.20,0.45-0.75,0.025,0.015,1.40-1.65,---,0.10,Cu 0.30; Al 0.050; O 0.0015
+9.4.1 Chemical Composition of Bearing Steels,ISO 683-17:1999,"B3, 100CrMnSi6-4",---,---,0.93-1.05,1.00-1.20,0.45-0.75,0.025,0.015,1.40-1.65,---,0.10,Cu 0.30; Al 0.050; O 0.0015
+9.4.1 Chemical Composition of Bearing Steels,ASTM A 485-03,"B4, 100CrMnSi6-6",---,---,0.93-1.05,1.40-1.70,0.45-0.75,0.025,0.015,1.40-1.65,---,0.10,Cu 0.30; Al 0.050; O 0.0015
+9.4.1 Chemical Composition of Bearing Steels,ISO 683-17:1999,"B4, 100CrMnSi6-6",---,---,0.93-1.05,1.40-1.70,0.45-0.75,0.025,0.015,1.40-1.65,---,0.10,Cu 0.30; Al 0.050; O 0.0015
+9.4.1 Chemical Composition of Bearing Steels,ASTM A 485-03,"B5, 100CrMo7",---,---,0.93-1.05,0.25-0.45,0.15-0.35,0.025,0.015,1.65-1.95,---,0.15-0.30,Cu 0.30; Al 0.050; O 0.0015
+9.4.1 Chemical Composition of Bearing Steels,ISO 683-17:1999,"B5, 100CrMo7",---,---,0.93-1.05,0.25-0.45,0.15-0.35,0.025,0.015,1.65-1.95,---,0.15-0.30,Cu 0.30; Al 0.050; O 0.0015
+9.4.1 Chemical Composition of Bearing Steels,ASTM A 485-03,"B6, 100CrMo7-3",---,---,0.93-1.05,0.60-0.80,0.15-0.35,0.025,0.015,1.65-1.95,---,0.20-0.35,Cu 0.30; Al 0.050; O 0.0015
+9.4.1 Chemical Composition of Bearing Steels,ISO 683-17:1999,"B6, 100CrMo7-3",---,---,0.93-1.05,0.60-0.80,0.15-0.35,0.025,0.015,1.65-1.95,---,0.20-0.35,Cu 0.30; Al 0.050; O 0.0015
+9.4.1 Chemical Composition of Bearing Steels,ASTM A 485-03,"B7, 100CrMo7-4",---,---,0.93-1.05,0.60-0.80,0.15-0.35,0.025,0.015,1.65-1.95,---,0.40-0.50,Cu 0.30; Al 0.050; O 0.0015
+9.4.1 Chemical Composition of Bearing Steels,ISO 683-17:1999,"B7, 100CrMo7-4",---,---,0.93-1.05,0.60-0.80,0.15-0.35,0.025,0.015,1.65-1.95,---,0.40-0.50,Cu 0.30; Al 0.050; O 0.0015
+9.4.1 Chemical Composition of Bearing Steels,ASTM A 485-03,"B8, 100CrMnMoSi8-4-6",---,---,0.93-1.05,0.80-1.10,0.40-0.60,0.025,0.015,1.80-2.05,---,0.50-0.60,Cu 0.30; Al 0.050; O 0.0015
+9.4.1 Chemical Composition of Bearing Steels,ISO 683-17:1999,"B8, 100CrMnMoSi8-4-6",---,---,0.93-1.05,0.80-1.10,0.40-0.60,0.025,0.015,1.80-2.05,---,0.50-0.60,Cu 0.30; Al 0.050; O 0.0015

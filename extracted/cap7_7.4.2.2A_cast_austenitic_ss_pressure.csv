@@ -1,0 +1,25 @@
+﻿Section,Standard Designation,"Grade, Class, Type, Symbol or Name",Steel Number,UNS Number,C,Mn,Si,P,S,Cr,Ni,Mo,Others
+7.4.2.2A Chemical Composition of Austenitic Stainless Steels for Pressure Purposes,EN 10213-4:1995,GX5CrNi19-10,1.4308,---,0.07,1.50,1.50,0.040,0.030,18.00-20.00,8.00-11.00,---,---
+7.4.2.2A Chemical Composition of Austenitic Stainless Steels for Pressure Purposes,ISO 4991:1994,C47,---,---,0.07,2.00,2.00,0.045,0.035,18.0-21.0,8.0-11.0,---,---
+7.4.2.2A Chemical Composition of Austenitic Stainless Steels for Pressure Purposes,ISO 4991:1994,C47L,---,---,0.07,2.00,2.00,0.045,0.035,17.0-20.0,9.0-12.0,---,---
+7.4.2.2A Chemical Composition of Austenitic Stainless Steels for Pressure Purposes,ASTM A 351/A 351M-03,"CF-8, CF-8A",---,J92600,0.08,1.50,2.00,0.040,0.040,18.0-21.0,8.0-11.0,0.50,---
+7.4.2.2A Chemical Composition of Austenitic Stainless Steels for Pressure Purposes,EN 10213-4:1995,GX2CrNi19-11,1.4309,---,0.03,2.00,1.50,0.035,0.025,18.00-20.00,9.00-12.00,---,N 0.20
+7.4.2.2A Chemical Composition of Austenitic Stainless Steels for Pressure Purposes,ISO 4991:1994,C46,---,---,0.03,2.00,2.00,0.045,0.035,17.0-19.0,9.0-12.0,---,---
+7.4.2.2A Chemical Composition of Austenitic Stainless Steels for Pressure Purposes,ASTM A 351/A 351M-03,"CF-3, CF-3A",---,J92700,0.03,1.50,2.00,0.040,0.040,17.0-21.0,8.0-12.0,0.50,---
+7.4.2.2A Chemical Composition of Austenitic Stainless Steels for Pressure Purposes,EN 10213-4:1995,GX5CrNiNb19-11,1.4552,---,0.07,1.50,1.50,0.040,0.030,18.00-20.00,9.00-12.00,---,Nb 8 x C to 1.0
+7.4.2.2A Chemical Composition of Austenitic Stainless Steels for Pressure Purposes,ISO 4991:1994,C50,---,---,0.08,2.00,2.00,0.045,0.035,18.0-21.0,9.0-12.0,---,Nb 8 x C to 1.0
+7.4.2.2A Chemical Composition of Austenitic Stainless Steels for Pressure Purposes,ASTM A 351/A 351M-03,CF-8C,---,J92710,0.08,1.50,2.00,0.040,0.040,18.0-21.0,9.0-12.0,0.50,Cb 8 x C to 1.00
+7.4.2.2A Chemical Composition of Austenitic Stainless Steels for Pressure Purposes,EN 10213-4:1995,GX5CrNiMo19-11-2,1.4408,---,0.07,1.50,1.50,0.040,0.030,18.00-20.00,9.00-12.00,2.00-2.50,---
+7.4.2.2A Chemical Composition of Austenitic Stainless Steels for Pressure Purposes,ISO 4991:1994,C60,---,---,0.07,2.00,2.00,0.045,0.035,17.0-21.0,9.0-13.0,2.0-2.5,---
+7.4.2.2A Chemical Composition of Austenitic Stainless Steels for Pressure Purposes,ISO 4991:1994,C61,---,---,0.07,2.00,2.00,0.045,0.035,17.0-21.0,9.0-13.0,2.5-3.0,---
+7.4.2.2A Chemical Composition of Austenitic Stainless Steels for Pressure Purposes,ASTM A 351/A 351M-03,CF-8M,---,J92900,0.08,1.50,1.50,0.040,0.040,18.0-21.0,9.0-12.0,2.0-3.0,---
+7.4.2.2A Chemical Composition of Austenitic Stainless Steels for Pressure Purposes,EN 10213-4:1995,GX5CrNiMoNb19-11-2,1.4581,---,0.07,1.50,1.50,0.040,0.030,18.00-20.00,9.00-12.00,2.00-2.50,Nb 8 x C to 1.0
+7.4.2.2A Chemical Composition of Austenitic Stainless Steels for Pressure Purposes,ISO 4991:1994,C60Nb,---,---,0.08,2.00,2.00,0.045,0.035,17.0-21.0,9.0-13.0,2.0-2.5,Nb 8 x C to 1.0
+7.4.2.2A Chemical Composition of Austenitic Stainless Steels for Pressure Purposes,ISO 4991:1994,C57,---,---,0.03,2.00,2.00,0.045,0.035,17.0-21.0,9.0-13.0,2.0-2.5,---
+7.4.2.2A Chemical Composition of Austenitic Stainless Steels for Pressure Purposes,ISO 4991:1994,C61LC,---,---,0.03,2.00,2.00,0.045,0.035,17.0-21.0,9.0-13.0,2.5-3.0,---
+7.4.2.2A Chemical Composition of Austenitic Stainless Steels for Pressure Purposes,EN 10213-4:1995,GX2CrNiMo19-11-2,1.4409,---,0.030,2.00,1.50,0.035,0.025,18.00-20.00,9.00-12.00,2.00-2.50,N 0.20
+7.4.2.2A Chemical Composition of Austenitic Stainless Steels for Pressure Purposes,ASTM A 351/A 351M-03,"CF-3M, CF-3MA",---,J92800,0.03,1.50,1.50,0.040,0.040,17.0-21.0,9.0-13.0,2.0-3.0,---
+7.4.2.2A Chemical Composition of Austenitic Stainless Steels for Pressure Purposes,ASTM A 351/A 351M-03,CN-7M,---,N08007,0.07,1.50,1.50,0.04,0.04,19.0-22.0,27.5-30.5,2.0-3.0,Cu 3.0-4.0
+7.4.2.2A Chemical Composition of Austenitic Stainless Steels for Pressure Purposes,EN 10213-4:1995,GX2NiCrMo28-20-2,1.4458,---,0.030,2.00,1.00,0.035,0.025,19.00-22.00,26.00-30.00,2.00-2.50,Cu 2.00; N 0.20
+7.4.2.2A Chemical Composition of Austenitic Stainless Steels for Pressure Purposes,EN 10213-4:1995,GX2CrNiMoCuN25-6-3-3,1.4517,---,0.030,1.50,1.00,0.035,0.025,24.50-26.50,5.00-7.00,2.50-3.50,Cu 2.75-3.50; N 0.12-0.22
+7.4.2.2A Chemical Composition of Austenitic Stainless Steels for Pressure Purposes,ASTM A 351/A 351M-03,CD-4MCu,---,J93370,0.04,1.00,1.00,0.04,0.04,24.5-26.5,4.75-6.00,1.75-2.25,Cu 2.75-3.25

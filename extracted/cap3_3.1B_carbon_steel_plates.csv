@@ -1,0 +1,134 @@
+﻿Section,Standard Designation,"Grade, Class, Type, Symbol or Name",Steel Number,UNS Number,"Section Thickness t, mm","t, in.",C,Mn,Si,P,S,Cr,Ni,Mo,Others
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ISO 630:1995,E 185,---,---,---,---,---,---,---,---,---,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 283/A 283M-03,A,---,---,≤ 40,≤ 1.5,0.14,0.90,0.40,0.035,0.04,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 283/A 283M-03,,,,> 40,> 1.5,0.14,0.90,0.15-0.40,0.035,0.04,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,S185,1.0035,---,≤ 16,---,---,---,---,---,---,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,JIS G 3101:1995,SS330,---,---,---,---,---,---,---,0.050,0.050,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 1011/A 1011M-03,30 [205],---,K02502,≤ 6.0,≤ 0.229,0.25,0.90,report value,0.035,0.04,0.15,0.20,0.06,Cb 0.008; V 0.008; Al report value; Cu see standard; Cu + Ni + Cr + Mo 0.50; Cr + Mo see standard
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ISO 630:1995,E 235 A,---,---,---,---,0.22,---,---,0.050,0.050,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ISO 630:1995,E 235 B,---,---,≤ 16,---,0.17,1.40,0.40,0.045,0.045,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ISO 630:1995,,,,16 < t ≤ 25,---,0.20,1.40,0.40,0.045,0.045,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ISO 630:1995,,,,≤ 40,---,0.17,1.40,0.40,0.045,0.045,---,---,---,Non-rimming
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ISO 630:1995,,,,> 40,---,0.20,1.40,0.40,0.045,0.045,---,---,---,Non-rimming
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ISO 630:1995,E 235 C,---,---,---,---,0.17,1.40,0.40,0.040,0.040,---,---,---,Non-rimming
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ISO 630:1995,E 235 D,---,---,---,---,0.17,1.40,0.40,0.035,0.035,---,---,---,Fine-grained
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 283/A 283M-03,B,---,---,≤ 40,≤ 1.5,0.17,0.90,0.40,0.035,0.04,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 283/A 283M-03,,,,> 40,> 1.5,0.17,0.90,0.15-0.40,0.035,0.04,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 1011/A 1011M-03,33 [230],---,K02502,≤ 6.0,≤ 0.229,0.25,0.90,report value,0.035,0.04,0.15,0.20,0.06,Cb 0.008; V 0.008; Al report value; Cu see standard; Cu + Ni + Cr + Mo 0.50; Cr + Mo see standard
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,S235JR,1.0037,---,≤ 16,---,0.17,1.40,---,0.045,0.045,---,---,---,N 0.009
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,,,,16 < t ≤ 40,---,0.20,1.40,---,0.045,0.045,---,---,---,N 0.009
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,S235JRG1,1.0036,---,≤ 16,---,0.17,1.40,---,0.045,0.045,---,---,---,N 0.007
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,,,,16 < t ≤ 40,---,0.20,1.40,---,0.045,0.045,---,---,---,N 0.007
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,S235JRG2,1.0038,---,≤ 16,---,0.17,1.40,---,0.045,0.045,---,---,---,N 0.009
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,,,,16 < t ≤ 40,---,0.17,1.40,---,0.045,0.045,---,---,---,N 0.009
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,,,,> 40,---,0.20,1.40,---,0.045,0.045,---,---,---,N 0.009
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,S235J0,1.0114,---,≤ 16,---,0.17,1.40,---,0.040,0.040,---,---,---,N 0.009
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,,,,16 < t ≤ 40,---,0.17,1.40,---,0.040,0.040,---,---,---,N 0.009
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,,,,> 40,---,0.17,1.40,---,0.040,0.040,---,---,---,N 0.009
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,S235J2G3,1.0116,---,≤ 16,---,0.17,1.40,---,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,,,,16 < t ≤ 40,---,0.17,1.40,---,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,,,,> 40,---,0.17,1.40,---,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,S235J2G4,1.0117,---,≤ 16,---,0.17,1.40,---,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,,,,16 < t ≤ 40,---,0.17,1.40,---,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,,,,> 40,---,0.17,1.40,---,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 1011/A 1011M-03,36 [250] Type 1,---,K02502,≤ 6.0,≤ 0.229,0.25,0.90,report value,0.035,0.04,0.15,0.20,0.06,Cb 0.008; V 0.008; Al report value; Cu see standard; Cu + Ni + Cr + Mo 0.50; Cr + Mo see standard
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 283/A 283M-03,C,---,K02401,≤ 40,≤ 1.5,0.24,0.90,0.40,0.035,0.04,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 283/A 283M-03,,,,> 40,> 1.5,0.24,0.90,0.15-0.40,0.035,0.04,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 1011/A 1011M-03,40 [275],---,K02502,≤ 6.0,≤ 0.229,0.25,0.90,report value,0.035,0.04,0.15,0.20,0.06,Cb 0.008; V 0.008; Al report value; Cu see standard; Cu + Ni + Cr + Mo 0.50; Cr + Mo see standard
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 36/A 36M-03a,---,---,K02595,≤ 20,≤ ¾,0.25,---,0.40,0.04,0.05,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 36/A 36M-03a,,,K02596,20 < t ≤ 40,¾ < t ≤ 1½,0.25,0.80-1.20,0.40,0.04,0.05,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 36/A 36M-03a,,,K02597,40 < t ≤ 65,1½ < t ≤ 2½,0.26,0.80-1.20,0.15-0.40,0.04,0.05,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 36/A 36M-03a,,,K02598,65 < t ≤ 100,2½ < t ≤ 4,0.27,0.85-1.20,0.15-0.40,0.04,0.05,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 36/A 36M-03a,,,K02599-,> 100,> 4,0.29,0.85-1.20,0.15-0.40,0.04,0.05,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 1011/A 1011M-03,36 [250] Type 2,---,K02502,≤ 6.0,≤ 0.229,0.25,1.35,report value,0.035,0.04,0.15,0.20,0.06,"Cb 0.008; V 0.008; Si, Al report value; Cu see standard; Cu + Ni + Cr + Mo 0.50; Cr + Mo see standard"
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 573/A 573M-00a,58 [400],---,K02301,≤ 13,≤ ½,0.23,0.60-0.90,0.10-0.35,0.035,0.04,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 573/A 573M-00a,,,,13 < t ≤ 40,½ < t ≤ 1½,0.23,0.60-0.90,0.10-0.35,0.035,0.04,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 709/A 709M-03a,36 [250],---,---,≤ 20,≤ ¾,0.25,---,0.40,0.04,0.05,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 709/A 709M-03a,,,,20 < t ≤ 40,¾ < t ≤ 1½,0.25,0.80-1.20,0.40,0.04,0.05,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 709/A 709M-03a,,,,40 < t ≤ 65,1½< t ≤2½,0.26,0.80-1.20,0.15-0.40,0.04,0.05,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 709/A 709M-03a,,,,65 < t ≤ 100,2½ < t ≤ 4,0.27,0.85-1.20,0.15-0.40,0.04,0.05,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,JIS G 3101:1995,SS400,---,---,---,---,---,---,---,0.050,0.050,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,JIS G 3106:1999,SM400A,---,---,≤ 50,---,0.23,2.5xC min,---,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,JIS G 3106:1999,,,,50 < t ≤ 200,---,0.25,2.5xC min,---,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,JIS G 3106:1999,SM400B,---,---,≤ 50,---,0.20,0.60-1.40,0.35,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,JIS G 3106:1999,,,,50 < t ≤ 200,---,0.22,0.60-1.40,0.35,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,JIS G 3106:1999,SM400C,---,---,≤ 100,---,0.18,1.40,0.35,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,JIS G 3136:1994,SN400A,---,---,6 ≤ t ≤ 100,---,0.24,---,---,0.050,0.050,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,JIS G 3136:1994,SN400B,---,---,6 ≤ t ≤ 50,---,0.20,0.60-1.40,0.35,0.030,0.015,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,JIS G 3136:1994,,,,50 < t ≤ 100,---,0.22,0.60-1.40,0.35,0.030,0.015,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,JIS G 3136:1994,SN400C,---,---,16 ≤ t ≤ 50,---,0.20,0.60-1.40,0.35,0.020,0.008,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,JIS G 3136:1994,,,,50 < t ≤ 100,---,0.22,0.60-1.40,0.35,0.020,0.008,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ISO 630:1995,E 275 A,---,---,---,---,0.24,---,---,0.050,0.050,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ISO 630:1995,E 275 B,---,---,≤ 40,---,0.21,1.50,0.40,0.045,0.045,---,---,---,Non-rimming
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ISO 630:1995,,,,> 40,---,0.22,1.50,0.40,0.045,0.045,---,---,---,Non-rimming
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ISO 630:1995,E 275 C,---,---,---,---,0.20,1.50,0.40,0.040,0.040,---,---,---,Non-rimming
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ISO 630:1995,E 275 D,---,---,---,---,0.20,1.50,0.40,0.035,0.035,---,---,---,Fine-grained
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 283/A 283M-03,D,---,K02702,≤ 40,≤ 1.5,0.27,0.90,0.40,0.035,0.04,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 283/A 283M-03,,,,> 40,> 1.5,0.27,0.90,0.15-0.40,0.035,0.04,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 1011/A 1011M-03,45 [310],---,K02507,≤ 6.0,≤ 0.229,0.25,1.35,report value,0.035,0.04,0.15,0.20,0.06,Cb 0.008; V 0.008; Al report value; Cu see standard; Cu + Ni + Cr + Mo 0.50; Cr + Mo see standard
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,S275JR,1.0044,---,≤ 16,---,0.21,1.50,---,0.045,0.045,---,---,---,N 0.009
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,,,,16 < t ≤ 40,---,0.21,1.50,---,0.045,0.045,---,---,---,N 0.009
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,,,,> 40,---,0.22,1.50,---,0.045,0.045,---,---,---,N 0.009
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,S275J0,1.0143,---,≤ 16,---,0.18,1.50,---,0.040,0.040,---,---,---,N 0.009
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,,,,16 < t ≤ 40,---,0.18,1.50,---,0.040,0.040,---,---,---,N 0.009
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,,,,> 40,---,0.18,1.50,---,0.040,0.040,---,---,---,N 0.009
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,S275J2G3,1.0144,---,≤ 16,---,0.18,1.50,---,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,,,,16 < t ≤ 40,---,0.18,1.50,---,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,,,,> 40,---,0.18,1.50,---,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,S275J2G4,1.0145,---,≤ 16,---,0.18,1.50,---,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,,,,16 < t ≤ 40,---,0.18,1.50,---,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,,,,> 40,---,0.18,1.50,---,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 1011/A 1011M-03,50 [340],---,K02507,≤ 6.0,≤ 0.229,0.25,1.35,report value,0.035,0.04,0.15,0.20,0.06,Cb 0.008; V 0.008; Al report value; Cu see standard; Cu + Ni + Cr + Mo 0.50; Cr + Mo see standard
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 573/A 573M-00a,65 [450],---,K02404,≤ 13,≤ ½,0.24,0.85-1.20,0.15-0.40,0.035,0.04,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 573/A 573M-00a,,,,13 < t ≤ 40,½ < t ≤ 1½,0.26,0.85-1.20,0.15-0.40,0.035,0.04,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 529/A 529M-03,50 [345],---,K02703,≤ 25,≤ 1,0.27,1.35,0.40,0.04,0.05,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 529/A 529M-03,55 [380],---,K02703,≤ 25,≤ 1,0.27,1.35,0.40,0.04,0.05,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 1011/A 1011M-03,55 [380],---,K02507,≤ 6.0,≤ 0.229,0.25,1.35,report value,0.035,0.04,0.15,0.20,0.06,Cb 0.008; V 0.008; Al report value; Cu see standard; Cu + Ni + Cr + Mo 0.50; Cr + Mo see standard
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 573/A 573M-00a,70 [485],---,K02701,≤ 13,≤ ½,0.27,0.85-1.20,0.15-0.40,0.035,0.04,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 573/A 573M-00a,,,,13 < t ≤ 40,½ < t ≤ 1½,0.28,0.85-1.20,0.15-0.40,0.035,0.04,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 678/A 678M-00a,A,---,K01600,≤ 40,≤ 1½,0.16,0.90-1.50,0.15-0.50,0.035,0.04,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,JIS G 3101:1995,SS490,---,---,---,---,---,---,---,0.050,0.050,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,JIS G 3106:1999,SM490A,---,---,≤ 50,---,0.20,1.60,0.55,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,JIS G 3106:1999,,,,50< t ≤ 200,---,0.22,1.60,0.55,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,JIS G 3106:1999,SM490B,---,---,≤ 50,---,0.18,1.60,0.55,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,JIS G 3106:1999,,,,50< t ≤ 200,---,0.20,1.60,0.55,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,JIS G 3106:1999,SM490C,---,---,≤ 100,---,0.18,1.60,0.55,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,JIS G 3106:1999,SM490YA,---,---,≤ 100,---,0.20,1.60,0.55,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,JIS G 3106:1999,SM490YB,---,---,≤ 100,---,0.20,1.60,0.55,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,JIS G 3136:1994,SN490B,---,---,6 ≤ t ≤ 50,---,0.18,1.60,0.55,0.030,0.015,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,JIS G 3136:1994,,,,50 < t ≤ 100,---,0.20,1.60,0.55,0.030,0.015,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,JIS G 3136:1994,SN490C,---,---,16 ≤ t ≤ 50,---,0.18,1.60,0.55,0.020,0.008,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,JIS G 3136:1994,,,,50 < t ≤ 100,---,0.20,1.60,0.55,0.020,0.008,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,E295,1.0050,---,---,---,---,---,---,0.045,0.045,---,---,---,N 0.009
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ISO 630:1995,E 355 C,---,---,≤ 30,---,0.20,1.60,0.55,0.040,0.040,---,---,---,non-rimming
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ISO 630:1995,,,,> 30,---,0.22,1.60,0.55,0.040,0.040,---,---,---,non-rimming
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ISO 630:1995,E 355 D,---,---,≤ 30,---,0.20,1.60,0.55,0.035,0.035,---,---,---,fine-grained
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ISO 630:1995,,,,> 30,---,0.22,1.60,0.55,0.035,0.035,---,---,---,fine-grained
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,S355JR,1.0045,---,≤ 16,---,0.24,1.60,0.55,0.045,0.045,---,---,---,N 0.009
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,,,,16 < t ≤ 40,---,0.24,1.60,0.55,0.045,0.045,---,---,---,N 0.009
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,,,,> 40,---,0.24,1.60,0.55,0.045,0.045,---,---,---,N 0.009
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,S355J0,1.0553,---,≤ 16,---,0.20,1.60,0.55,0.040,0.040,---,---,---,N 0.009
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,,,,16 < t ≤ 40,---,0.20,1.60,0.55,0.040,0.040,---,---,---,N 0.009
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,,,,> 40,---,0.22,1.60,0.55,0.040,0.040,---,---,---,N 0.009
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,S355J2G3,1.0570,---,≤ 16,---,0.20,1.60,0.55,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,,,,16 < t ≤ 40,---,0.20,1.60,0.55,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,,,,> 40,---,0.22,1.60,0.55,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,S355J2G4,1.0577,---,≤ 16,---,0.20,1.60,0.55,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,,,,16 < t ≤ 40,---,0.20,1.60,0.55,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,,,,> 40,---,0.22,1.60,0.55,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,S355K2G3,1.0595,---,≤ 16,---,0.20,1.60,0.55,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,,,,16 < t ≤ 40,---,0.20,1.60,0.55,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,,,,> 40,---,0.22,1.60,0.55,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,S355K2G4,1.0596,---,≤ 16,---,0.20,1.60,0.55,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,,,,16 < t ≤ 40,---,0.20,1.60,0.55,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,,,,> 40,---,0.22,1.60,0.55,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,JIS G 3106:1999,SM520B,---,---,≤ 100,---,0.20,1.60,0.55,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,JIS G 3106:1999,SM520C,---,---,≤ 100,---,0.20,1.60,0.55,0.035,0.035,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,JIS G 3101:1995,SS540,---,---,---,---,0.30,1.60,---,0.040,0.040,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 678/A 678M-00a,B,---,K02002,≤ 40,≤ 1½,0.20,0.70-1.35,0.15-0.50,0.035,0.04,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 678/A 678M-00a,,,,40 < t ≤ 65,1½ < t ≤ 2½,0.20,1.00-1.60,0.15-0.50,0.035,0.04,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,JIS G 3106:1999,SM570,---,---,≤ 100,---,0.18,1.60,0.55,0.035,0.035,---,---,---,----
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,E 335,1.0060,---,---,---,---,---,---,0.045,0.045,---,---,---,N 0.009
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 678/A 678M-00a,C,---,K02204,≤ 40,≤ 1½,0.22,1.00-1.60,0.20-0.50,0.035,0.04,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,ASTM A 678/A 678M-00a,,,,40 < t ≤ 65,1½ < t ≤ 2½,0.22,1.00-1.60,0.20-0.50,0.035,0.04,---,---,---,---
+3.1B Chemical Composition of Carbon Steels for Structural Steel Plates,EN 10025:1993,E 360,1.0070,---,---,---,---,---,---,0.045,0.045,---,---,---,N 0.009
