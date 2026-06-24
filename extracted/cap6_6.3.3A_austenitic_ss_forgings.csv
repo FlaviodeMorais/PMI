@@ -72,24 +72,24 @@
 6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,ASTM A 182/A 182M-02,F 316H,---,S31609,0.04-0.10,2.00,1.00,0.045,0.030,16.0-18.0,,10.0-14.0,2.00-3.00
 6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,ASTM A 965/A 965M-02,F 316H,---,S31609,0.04-0.10,2.00,1.00,0.045,0.030,16.0-18.0,,10.0-14.0,2.00-3.00
 6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,JIS G 3214:1991,SUS 316H,---,---,0.04-0.10,2.00,1.00,0.040,0.030,16.00-18.00,,10.00-14.00,2.00-3.00
-6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,EN 10250-4:1999,X6CrNiMoTi17-12-2,1.4571,---,0.08,2.00,1.00,0.045,0.030,,16.50-18.50,10.50-13.50,2.00-2.50
-6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,ISO 9327-5:1999,X6CrNiMoTi17-12,---,---,0.08,2.00,1.00,0.045,0.030,,16.50-18.50,11.00-14.00,2.00-2.50
-6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,ASTM A 182/A 182M-02,F 317,---,S31700,0.08,2.00,1.00,0.045,0.030,,18.0-20.0,11.0-15.0,3.00-4.00
-6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,ASTM A 473-01,317,---,S31700,0.08,2.00,1.00,0.045,0.030,,18.0-20.0,11.0-15.0,3.00-4.00
-6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,JIS G 3214:1991,SUS 317,---,---,0.08,2.00,1.00,0.040,0.030,,18.0-20.0,11.0-15.0,3.00-4.00
-6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,JIS G 3214:1991,SUS F 317L,---,---,0.030,2.00,1.00,0.040,0.030,,18.0-20.0,11.0-15.0,3.00-4.00
-6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,ASTM A 182/A 182M-02,F 317L,---,S31703,0.030,2.00,1.00,0.045,0.030,,18.0-20.0,11.0-15.0,3.00-4.00
-6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,EN 10250-4:1999,X6CrNiTi18-10,1.4541,---,0.08,2.00,1.00,0.045,0.030,,17.00-19.00,9.00-12.00,---
-6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,EN 10222-5:1999,X6CrNiTi18-10,1.4541,---,0.08,2.00,1.00,0.045,0.015,,17.00-19.00,9.00-12.00,---
-6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,ISO 9327-5:1999,X6CrNiTi18-10,---,---,0.08,2.00,1.00,0.045,0.030,,17.00-19.00,9.00-12.00,---
-6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,ASTM A 182/A 182M-02,F 321,---,S32100,0.08,2.00,1.00,0.045,0.030,,17.0-19.0,9.0-12.0,---
-6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,ASTM A 473-01,321,---,S32100,0.08,2.00,1.00,0.045,0.030,,17.0-19.0,9.0-12.0,---
-6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,ASTM A 965/A 965M-02,F 321,---,S32100,0.08,2.00,1.00,0.045,0.030,,17.0-19.0,9.0-12.0,---
-6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,JIS G 3214:1991,SUS F 321,---,---,0.08,2.00,1.00,0.040,0.030,,17.00 min,9.00-12.00,---
-6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,ISO 9327-5:1999,X7CrNiTi18-10,---,---,0.04-0.10,2.00,1.00,0.045,0.030,,17.00-19.00,9.00-12.00,---
-6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,ASTM A 182/A 182M-02,F 321H,---,S32109,0.04-0.10,2.00,1.00,0.045,0.030,,17.0-19.0,9.0-12.0,---
-6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,ASTM A 965/A 965M-02,F 321H,---,S32109,0.04-0.10,2.00,1.00,0.045,0.030,,17.0-19.0,9.0-12.0,---
-6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,JIS G 3214:1991,SUS F 321H,---,---,0.04-0.10,2.00,1.00,0.040,0.030,,17.0 min,9.00-12.00,---
+6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,EN 10250-4:1999,X6CrNiMoTi17-12-2,1.4571,---,0.08,2.00,1.00,0.045,0.030,16.50-18.50,10.50-13.50,2.00-2.50,
+6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,ISO 9327-5:1999,X6CrNiMoTi17-12,---,---,0.08,2.00,1.00,0.045,0.030,16.50-18.50,11.00-14.00,2.00-2.50,
+6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,ASTM A 182/A 182M-02,F 317,---,S31700,0.08,2.00,1.00,0.045,0.030,18.0-20.0,11.0-15.0,3.00-4.00,
+6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,ASTM A 473-01,317,---,S31700,0.08,2.00,1.00,0.045,0.030,18.0-20.0,11.0-15.0,3.00-4.00,
+6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,JIS G 3214:1991,SUS 317,---,---,0.08,2.00,1.00,0.040,0.030,18.0-20.0,11.0-15.0,3.00-4.00,
+6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,JIS G 3214:1991,SUS F 317L,---,---,0.030,2.00,1.00,0.040,0.030,18.0-20.0,11.0-15.0,3.00-4.00,
+6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,ASTM A 182/A 182M-02,F 317L,---,S31703,0.030,2.00,1.00,0.045,0.030,18.0-20.0,11.0-15.0,3.00-4.00,
+6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,EN 10250-4:1999,X6CrNiTi18-10,1.4541,---,0.08,2.00,1.00,0.045,0.030,17.00-19.00,9.00-12.00,---,
+6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,EN 10222-5:1999,X6CrNiTi18-10,1.4541,---,0.08,2.00,1.00,0.045,0.015,17.00-19.00,9.00-12.00,---,
+6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,ISO 9327-5:1999,X6CrNiTi18-10,---,---,0.08,2.00,1.00,0.045,0.030,17.00-19.00,9.00-12.00,---,
+6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,ASTM A 182/A 182M-02,F 321,---,S32100,0.08,2.00,1.00,0.045,0.030,17.0-19.0,9.0-12.0,---,
+6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,ASTM A 473-01,321,---,S32100,0.08,2.00,1.00,0.045,0.030,17.0-19.0,9.0-12.0,---,
+6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,ASTM A 965/A 965M-02,F 321,---,S32100,0.08,2.00,1.00,0.045,0.030,17.0-19.0,9.0-12.0,---,
+6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,JIS G 3214:1991,SUS F 321,---,---,0.08,2.00,1.00,0.040,0.030,17.00 min,9.00-12.00,---,
+6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,ISO 9327-5:1999,X7CrNiTi18-10,---,---,0.04-0.10,2.00,1.00,0.045,0.030,17.00-19.00,9.00-12.00,---,
+6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,ASTM A 182/A 182M-02,F 321H,---,S32109,0.04-0.10,2.00,1.00,0.045,0.030,17.0-19.0,9.0-12.0,---,
+6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,ASTM A 965/A 965M-02,F 321H,---,S32109,0.04-0.10,2.00,1.00,0.045,0.030,17.0-19.0,9.0-12.0,---,
+6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,JIS G 3214:1991,SUS F 321H,---,---,0.04-0.10,2.00,1.00,0.040,0.030,17.0 min,9.00-12.00,---,
 6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,EN 10222-5:1999,X6CrNiNb18-10,1.4550,---,0.08,2.00,1.00,0.045,0.015,17.00-19.00,9.00-12.00,---,Nb 10 x C to 1.00
 6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,ISO 9327-5:1999,X6CrNiNb18-10,---,---,0.08,2.00,1.00,0.045,0.030,17.00-19.00,9.00-12.00,---,Nb 10 x C to 1.00
 6.3.3A Chemical Composition of Austenitic Stainless Steel Forgings,ASTM A 182/A 182M-02,F 347,---,S34700,0.08,2.00,1.00,0.045,0.030,17.0-20.0,9.0-13.0,---,Cb 10 x C to 1.10
