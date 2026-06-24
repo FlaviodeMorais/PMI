@@ -1,4 +1,4 @@
-export const REPORT_ELEMENTS = ["C", "Si", "Mn", "P", "S", "Cu", "Cr", "Mo", "Ni", "V", "Ti", "Nb", "Pb", "Fe"] as const;
+export const REPORT_ELEMENTS = ["Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Nb", "Mo", "W"] as const;
 
 export interface ReportReading {
   id: number;

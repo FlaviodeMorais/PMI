@@ -318,8 +318,10 @@ export default function ReportBuilderPanel() {
           <table className={styles.reportTable}>
             <thead>
               <tr>
-                <th>Sel.</th><th>Data</th><th>Ponto</th><th>Equipamento</th><th>Descrição</th>
-                <th>Material/Corrida</th><th>Laudo</th><th>Liga detectada</th><th>Resultado</th>
+                <th>Sel.</th>
+                <th>Date</th><th>Time</th><th>Reading</th><th>Name</th>
+                <th>DESCRICAO</th><th>ESP.MAT</th><th>ID</th><th>N/S</th>
+                <th>LAUDO</th><th>Liga Detectada</th>
                 {REPORT_ELEMENTS.map((el) => <th key={el}>{el}</th>)}
               </tr>
             </thead>
@@ -328,13 +330,15 @@ export default function ReportBuilderPanel() {
                 <tr key={reading.id} className={selectedIds.has(reading.id) ? styles.selectedReportRow : ""}>
                   <td><input type="checkbox" checked={selectedIds.has(reading.id)} onChange={() => toggleReading(reading.id)} /></td>
                   <td>{formatDate(reading.reading_date)}</td>
+                  <td>{reading.reading_time}</td>
                   <td>{reading.reading_number}</td>
                   <td>{reading.name}</td>
                   <td>{reading.descricao || "—"}</td>
                   <td>{reading.corrida || "—"}</td>
+                  <td>{reading.qtd || "—"}</td>
                   <td>{reading.laudo || "—"}</td>
-                  <td>{reading.alloy_1 || reading.alloy_2 || "—"}</td>
                   <td>{resultStatus(reading)}</td>
+                  <td>{reading.alloy_1 || reading.alloy_2 || "—"}</td>
                   {REPORT_ELEMENTS.map((el) => (
                     <td key={el}>{reading.elements[el]?.value?.toLocaleString("pt-BR", { maximumFractionDigits: 4 }) ?? "—"}</td>
                   ))}
