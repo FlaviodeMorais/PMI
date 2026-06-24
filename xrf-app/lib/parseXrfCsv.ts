@@ -76,12 +76,26 @@ function parseNumberBR(raw: string | undefined): number | null {
   return Number.isNaN(parsed) ? null : parsed;
 }
 
-// Converte "DD-MM-YYYY" para "YYYY-MM-DD".
+// Converte datas brasileiras "DD/MM/YYYY" ou "DD-MM-YYYY" para "YYYY-MM-DD".
 function parseDateBR(raw: string): string | null {
   const value = unwrapExcelString(raw).trim();
-  const match = value.match(/^(\d{2})-(\d{2})-(\d{4})$/);
+  const match = value.match(/^(\d{2})[/-](\d{2})[/-](\d{4})$/);
   if (!match) return null;
   const [, dd, mm, yyyy] = match;
+
+  const day = Number(dd);
+  const month = Number(mm);
+  const year = Number(yyyy);
+  const date = new Date(Date.UTC(year, month - 1, day));
+
+  if (
+    date.getUTCFullYear() !== year ||
+    date.getUTCMonth() !== month - 1 ||
+    date.getUTCDate() !== day
+  ) {
+    return null;
+  }
+
   return `${yyyy}-${mm}-${dd}`;
 }
 
