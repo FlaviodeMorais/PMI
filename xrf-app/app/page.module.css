@@ -671,6 +671,82 @@
   background: #eff6ff;
 }
 
+.tableActions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+/* ── step 2: report form ──────────────────────────────────────────────────── */
+
+.reportForm {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.formSection {
+  border: 1px solid rgba(148, 163, 184, 0.28);
+  border-radius: 18px;
+  padding: 16px 18px;
+  background: rgba(255, 255, 255, 0.86);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px 16px;
+}
+
+.formSection legend {
+  padding: 0 8px;
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #475569;
+}
+
+.formSection label {
+  display: grid;
+  gap: 5px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #475569;
+}
+
+.formSection input,
+.formSection textarea {
+  width: 100%;
+  border: 1px solid #dbe4ef;
+  border-radius: 10px;
+  padding: 9px 11px;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: none;
+  color: #1e293b;
+  background: #fff;
+  resize: vertical;
+}
+
+.formSection input:focus,
+.formSection textarea:focus {
+  outline: 2px solid #1d4ed8;
+  outline-offset: 1px;
+  border-color: transparent;
+}
+
+.fullWidth {
+  grid-column: 1 / -1;
+}
+
+.reportActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 16px 0 24px;
+}
+
 @media (max-width: 1100px) {
   .reportFilters,
   .reportMetrics {
