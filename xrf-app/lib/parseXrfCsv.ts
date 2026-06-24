@@ -16,10 +16,10 @@ export interface ParsedReading {
   duration: number | null;
   name: string;
   descricao: string | null;
-  corrida: string | null;
-  qtd: string | null;
+  esp_mat: string | null;
+  item_id: string | null;
+  n_s: string | null;
   laudo: string | null;
-  norma: string | null;
   pass_threshold: number | null;
   pass_fail: string | null;
   match: string | null;
@@ -154,10 +154,10 @@ export function parseXrfCsv(buffer: Buffer, sourceFile: string): ParseResult {
       duration: parseNumberBR(cols[4]),
       name: cleanText(cols[5]) ?? "",
       descricao: cleanText(cols[6]),
-      corrida: cleanText(cols[7]),
-      qtd: cleanText(cols[8]),
-      laudo: cleanText(cols[9]),
-      norma: cleanText(cols[10]),
+      esp_mat: cleanText(cols[7]),
+      item_id: cleanText(cols[8]),
+      n_s: cleanText(cols[9]),
+      laudo: cleanText(cols[10]),
       pass_threshold: parseNumberBR(cols[11]),
       pass_fail: cleanText(cols[12]),
       match: cleanText(cols[13]),

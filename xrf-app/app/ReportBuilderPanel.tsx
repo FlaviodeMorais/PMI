@@ -10,7 +10,7 @@ function formatDate(value: string) {
 }
 
 function resultStatus(reading: ReportReading) {
-  const value = (reading.pass_fail || reading.norma || "").trim().toUpperCase();
+  const value = (reading.pass_fail || reading.laudo || "").trim().toUpperCase();
   return value === "A" || value === "APROVADO" || value === "APPROVED" ? "A" : value || "—";
 }
 
@@ -91,10 +91,10 @@ export default function ReportBuilderPanel() {
 
   const metrics = useMemo(() => {
     const equipment = new Set(selected.map((r) => r.name).filter(Boolean)).size;
-    const reports = new Set(selected.map((r) => r.laudo).filter(Boolean)).size;
-    const heats = new Set(selected.map((r) => r.corrida).filter(Boolean)).size;
+    const reports = new Set(selected.map((r) => r.n_s).filter(Boolean)).size;
+    const heats = new Set(selected.map((r) => r.esp_mat).filter(Boolean)).size;
     const approved = selected.filter((r) => resultStatus(r) === "A").length;
-    const requiredFields = selected.flatMap((r) => [r.name, r.descricao, r.corrida, r.qtd, r.laudo]);
+    const requiredFields = selected.flatMap((r) => [r.name, r.descricao, r.esp_mat, r.item_id, r.n_s]);
     const completeness = requiredFields.length
       ? Math.round((requiredFields.filter(Boolean).length / requiredFields.length) * 100)
       : 0;
@@ -334,10 +334,10 @@ export default function ReportBuilderPanel() {
                   <td>{reading.reading_number}</td>
                   <td>{reading.name}</td>
                   <td>{reading.descricao || "—"}</td>
-                  <td>{reading.corrida || "—"}</td>
-                  <td>{reading.qtd || "—"}</td>
+                  <td>{reading.esp_mat || "—"}</td>
+                  <td>{reading.item_id || "—"}</td>
+                  <td>{reading.n_s || "—"}</td>
                   <td>{reading.laudo || "—"}</td>
-                  <td>{resultStatus(reading)}</td>
                   <td>{reading.alloy_1 || reading.alloy_2 || "—"}</td>
                   {REPORT_ELEMENTS.map((el) => (
                     <td key={el}>{reading.elements[el]?.value?.toLocaleString("pt-BR", { maximumFractionDigits: 4 }) ?? "—"}</td>

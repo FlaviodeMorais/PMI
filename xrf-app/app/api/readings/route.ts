@@ -14,7 +14,7 @@ export async function GET(request: NextRequest) {
 
     let query = getSupabaseAdmin()
       .from("readings")
-      .select("id,reading_date,reading_time,reading_number,name,descricao,corrida,qtd,laudo,norma,pass_fail,match,alloy_1,alloy_2,unit,elements")
+      .select("id,reading_date,reading_time,reading_number,name,descricao,esp_mat,item_id,n_s,laudo,pass_fail,match,alloy_1,alloy_2,unit,elements")
       .order("reading_date", { ascending: false })
       .order("reading_time", { ascending: false })
       .limit(limit);
@@ -30,10 +30,10 @@ export async function GET(request: NextRequest) {
           [
             reading.name,
             reading.descricao,
-            reading.corrida,
-            reading.qtd,
+            reading.esp_mat,
+            reading.item_id,
+            reading.n_s,
             reading.laudo,
-            reading.norma,
             reading.alloy_1,
             reading.alloy_2,
           ]

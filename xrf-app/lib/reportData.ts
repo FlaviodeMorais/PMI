@@ -7,10 +7,10 @@ export interface ReportReading {
   reading_number: number;
   name: string;
   descricao: string | null;
-  corrida: string | null;
-  qtd: string | null;
+  esp_mat: string | null;
+  item_id: string | null;
+  n_s: string | null;
   laudo: string | null;
-  norma: string | null;
   pass_fail: string | null;
   match: string | null;
   alloy_1: string | null;
