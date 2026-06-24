@@ -170,7 +170,7 @@ export default function AlloyDashboard({ database }: Props) {
             <div>
               <span className={styles.eyebrow}>Ficha técnica</span>
               <h2>{selected.grade || selected.standard || "Liga selecionada"}</h2>
-              <p>{selected.section}</p>
+              <p>{selected.sectionPt || selected.section}</p>
             </div>
             <dl>
               <div><dt>Norma</dt><dd>{selected.standard || "—"}</dd></div>
