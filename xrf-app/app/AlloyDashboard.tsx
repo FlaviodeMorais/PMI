@@ -74,19 +74,13 @@ export default function AlloyDashboard({ database }: Props) {
           >
             Banco de ligas
           </button>
-          <button
-            type="button"
-            className={activeView === "import" ? styles.activeNav : ""}
-            onClick={() => setActiveView("import")}
-          >
+          <button type="button" className={styles.navDisabled} disabled title="Em desenvolvimento">
             Importar leituras XRF
+            <span className={styles.wip}>Em breve</span>
           </button>
-          <button
-            type="button"
-            className={activeView === "reports" ? styles.activeNav : ""}
-            onClick={() => setActiveView("reports")}
-          >
+          <button type="button" className={styles.navDisabled} disabled title="Em desenvolvimento">
             Relatórios
+            <span className={styles.wip}>Em breve</span>
           </button>
         </div>
       </nav>
