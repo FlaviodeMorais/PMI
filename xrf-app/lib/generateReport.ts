@@ -10,7 +10,6 @@ import {
   BorderStyle,
   AlignmentType,
   VerticalAlign,
-  HeadingLevel,
   ShadingType,
   convertInchesToTwip,
 } from "docx";
@@ -19,327 +18,368 @@ import { REPORT_ELEMENTS } from "./reportData";
 
 // ─── helpers ────────────────────────────────────────────────────────────────
 
+const FONT = "Arial";
+const SZ_NORMAL = 18; // 9pt
+const SZ_SMALL = 16; // 8pt
+const SZ_LARGE = 24; // 12pt
+const SZ_TITLE = 22; // 11pt
+
+const BORDER_SINGLE = { style: BorderStyle.SINGLE, size: 4, color: "000000" } as const;
+const BORDER_NONE = { style: BorderStyle.NONE, size: 0, color: "FFFFFF" } as const;
+
+function borders(opts: "all" | "none" | "outer") {
+  if (opts === "all") return { top: BORDER_SINGLE, bottom: BORDER_SINGLE, left: BORDER_SINGLE, right: BORDER_SINGLE, insideH: BORDER_SINGLE, insideV: BORDER_SINGLE };
+  if (opts === "none") return { top: BORDER_NONE, bottom: BORDER_NONE, left: BORDER_NONE, right: BORDER_NONE };
+  return { top: BORDER_SINGLE, bottom: BORDER_SINGLE, left: BORDER_SINGLE, right: BORDER_SINGLE };
+}
+
+function run(text: string, opts: { bold?: boolean; italic?: boolean; size?: number } = {}): TextRun {
+  return new TextRun({ text, bold: opts.bold, italics: opts.italic, size: opts.size ?? SZ_NORMAL, font: FONT });
+}
+
+function para(
+  children: TextRun[],
+  align: (typeof AlignmentType)[keyof typeof AlignmentType] = AlignmentType.LEFT,
+  spacing?: { before?: number; after?: number },
+): Paragraph {
+  return new Paragraph({ alignment: align, children, spacing: { before: spacing?.before ?? 0, after: spacing?.after ?? 0 } });
+}
+
 function cell(
-  text: string,
+  paragraphs: Paragraph[],
   opts: {
-    bold?: boolean;
-    shade?: boolean;
     colspan?: number;
     rowspan?: number;
-    align?: (typeof AlignmentType)[keyof typeof AlignmentType];
-    size?: number;
+    shade?: boolean;
     width?: number;
+    vAlign?: (typeof VerticalAlign)[keyof typeof VerticalAlign];
+    borders?: "all" | "none" | "outer";
+    margins?: { top?: number; bottom?: number; left?: number; right?: number };
   } = {},
 ): TableCell {
   return new TableCell({
     columnSpan: opts.colspan,
     rowSpan: opts.rowspan,
-    shading: opts.shade ? { type: ShadingType.SOLID, color: "D0D0D0" } : undefined,
-    verticalAlign: VerticalAlign.CENTER,
+    shading: opts.shade ? { type: ShadingType.SOLID, color: "E8E8E8" } : undefined,
+    verticalAlign: (opts.vAlign ?? VerticalAlign.CENTER) as "top" | "center" | "bottom",
     width: opts.width ? { size: opts.width, type: WidthType.DXA } : undefined,
-    children: [
-      new Paragraph({
-        alignment: opts.align ?? AlignmentType.LEFT,
+    borders: opts.borders ? borders(opts.borders) : undefined,
+    margins: opts.margins ? { top: opts.margins.top, bottom: opts.margins.bottom, left: opts.margins.left ?? 80, right: opts.margins.right ?? 80 } : { left: 80, right: 80 },
+    children: paragraphs,
+  });
+}
+
+function lbl(ptText: string, enText: string): Paragraph {
+  return para([
+    run(ptText, { bold: true, size: SZ_NORMAL }),
+    run(enText ? `\n(${enText}):` : "", { italic: true, size: SZ_SMALL }),
+  ]);
+}
+
+function val(text: string, align: (typeof AlignmentType)[keyof typeof AlignmentType] = AlignmentType.LEFT): Paragraph {
+  return para([run(text || "")], align);
+}
+
+function fmt(v: number | null | undefined): string {
+  if (v === null || v === undefined) return "—";
+  return v.toLocaleString("pt-BR", { minimumFractionDigits: 3, maximumFractionDigits: 4 });
+}
+
+function fmtDate(value: string): string {
+  if (!value) return "DD/MM/AAAA";
+  const [year, month, day] = value.split("-");
+  return `${day}/${month}/${year}`;
+}
+
+function spacer(pts = 60): Paragraph {
+  return new Paragraph({ children: [], spacing: { before: pts, after: 0 } });
+}
+
+// ─── 1. HEADER ───────────────────────────────────────────────────────────────
+
+function headerTable(f: ReportTemplateFields): Table {
+  return new Table({
+    width: { size: 100, type: WidthType.PERCENTAGE },
+    borders: borders("all"),
+    rows: [
+      new TableRow({
         children: [
-          new TextRun({
-            text,
-            bold: opts.bold,
-            size: opts.size ?? 18, // 9pt
-            font: "Arial",
-          }),
+          // Logo cell
+          cell(
+            [para([run("", { size: SZ_NORMAL })], AlignmentType.CENTER)],
+            { width: 1800, vAlign: VerticalAlign.CENTER },
+          ),
+          // Title cell
+          cell(
+            [
+              para([run("RELATÓRIO DE ENSAIO PMI", { bold: true, size: SZ_TITLE })], AlignmentType.CENTER, { before: 60 }),
+              para([run("(Test / Analysis Report)", { italic: true, size: SZ_SMALL })], AlignmentType.CENTER),
+              para([run(`Nº ${f.report.number || "XXXX/MMAA"}`, { bold: true, size: SZ_LARGE })], AlignmentType.CENTER, { before: 40 }),
+              para([run("VIA ORIGINAL", { bold: true, size: SZ_NORMAL })], AlignmentType.CENTER),
+              para([run("(Original Report)", { italic: true, size: SZ_SMALL })], AlignmentType.CENTER, { after: 60 }),
+            ],
+            { vAlign: VerticalAlign.CENTER },
+          ),
+          // RPMI info cell
+          cell(
+            [
+              para([run("RPMI", { bold: true, size: SZ_NORMAL })]),
+              para([run(`Revisão: ${f.report.revision || "00"}`, { size: SZ_NORMAL })]),
+              para([run("Página: 1/2", { size: SZ_NORMAL })]),
+            ],
+            { width: 1600, vAlign: VerticalAlign.CENTER },
+          ),
         ],
       }),
     ],
   });
 }
 
-function labelCell(text: string, colspan?: number): TableCell {
-  return cell(text, { bold: true, shade: true, colspan, align: AlignmentType.LEFT });
-}
+// ─── 2. CLIENT TABLE ─────────────────────────────────────────────────────────
 
-function valueCell(text: string, colspan?: number): TableCell {
-  return cell(text ?? "—", { colspan });
-}
-
-function row(...cells: TableCell[]): TableRow {
-  return new TableRow({ children: cells });
-}
-
-function bordered() {
-  const b = { style: BorderStyle.SINGLE, size: 4, color: "000000" } as const;
-  return { top: b, bottom: b, left: b, right: b, insideH: b, insideV: b };
-}
-
-function fmt(value: number | null | undefined): string {
-  if (value === null || value === undefined) return "—";
-  return value.toLocaleString("pt-BR", { minimumFractionDigits: 3, maximumFractionDigits: 4 });
-}
-
-function fmtDate(value: string): string {
-  if (!value) return "—";
-  const [year, month, day] = value.split("-");
-  return `${day}/${month}/${year}`;
-}
-
-// ─── section: header ────────────────────────────────────────────────────────
-
-function headerTable(fields: ReportTemplateFields): Table {
+function clientTable(f: ReportTemplateFields): Table {
+  const c = f.client;
   return new Table({
     width: { size: 100, type: WidthType.PERCENTAGE },
-    borders: bordered(),
+    borders: borders("all"),
     rows: [
-      row(
-        cell("", { width: 1800 }),
-        cell(
-          `RELATÓRIO DE ENSAIO PMI (Test / Analysis Report)\nN° ${fields.report.number}  —  VIA ORIGINAL`,
-          { bold: true, align: AlignmentType.CENTER, colspan: 1 },
-        ),
-        cell(`RPMI\nRevisão: ${fields.report.revision}\nPágina: 1/2`, {
-          align: AlignmentType.CENTER,
-          width: 2000,
-        }),
-      ),
-    ],
-  });
-}
-
-// ─── section: company identity ──────────────────────────────────────────────
-
-function companyParagraphs(): Paragraph[] {
-  const lines = [
-    "J. OMETTO & CIA PROTEÇÃO RADIOLÓGICA E ENGENHARIA DE MATERIAIS LTDA.",
-    "Rua Cristiano Cleopath, 2084 - Alemães, Piracicaba/SP, 13419-310",
-    "Tel.: (19) 3927-0881  |  www.jometto.com.br",
-  ];
-  return lines.map(
-    (line) =>
-      new Paragraph({
-        alignment: AlignmentType.CENTER,
-        children: [new TextRun({ text: line, size: 18, font: "Arial" })],
+      new TableRow({
+        children: [
+          cell([lbl("EMPRESA SOLICITANTE:", "Client")], { shade: true, width: 2400 }),
+          cell([val(c.company)], { colspan: 5 }),
+        ],
       }),
-  );
+      new TableRow({
+        children: [
+          cell([para([run("", { size: SZ_SMALL })])], { shade: true }),
+          cell([lbl("CEP:", "Zip Code")], { shade: true, width: 800 }),
+          cell([val(c.zipCode)], { width: 1400 }),
+          cell([lbl("CIDADE:", "City")], { shade: true, width: 800 }),
+          cell([val(c.city)], { width: 2200 }),
+          cell([lbl("Pais:", "Country")], { shade: true, width: 800 }),
+          cell([val(c.country)], { width: 1400 }),
+        ],
+      }),
+    ],
+  });
 }
 
-// ─── section: client info ────────────────────────────────────────────────────
+// ─── 3. MATERIAL TABLE ───────────────────────────────────────────────────────
 
-function clientTable(fields: ReportTemplateFields): Table {
-  const c = fields.client;
+function materialTable(f: ReportTemplateFields): Table {
+  const m = f.material;
   return new Table({
     width: { size: 100, type: WidthType.PERCENTAGE },
-    borders: bordered(),
+    borders: borders("all"),
     rows: [
-      row(labelCell("EMPRESA SOLICITANTE (Client):", 1), valueCell(c.company, 5)),
-      row(labelCell("Endereço:", 1), valueCell(c.address, 5)),
-      row(
-        labelCell("CEP:"),
-        valueCell(c.zipCode),
-        labelCell("CIDADE:"),
-        valueCell(c.city),
-        labelCell("País:"),
-        valueCell(c.country),
-      ),
+      new TableRow({
+        children: [
+          cell([lbl("Material:", "Material")], { shade: true, width: 2400 }),
+          cell([val(m.specification)], { colspan: 5 }),
+        ],
+      }),
+      new TableRow({
+        children: [
+          cell([lbl("Descrição do Equipamento:", "Description of Equipment")], { shade: true }),
+          cell([val(m.equipmentDescription)], { colspan: 5 }),
+        ],
+      }),
+      new TableRow({
+        children: [
+          cell([lbl("Pedido:", "Invoice")], { shade: true }),
+          cell([val(m.invoice)]),
+          cell([lbl("Corrida:", "Rate")], { shade: true }),
+          cell([val(m.heat)]),
+          cell([lbl("ID:", "")], { shade: true }),
+          cell([val(m.itemId)]),
+        ],
+      }),
+      new TableRow({
+        children: [
+          cell([lbl("AF:", "Supply Authorization")], { shade: true }),
+          cell([val(m.supplyAuthorization)]),
+          cell([lbl("Item/TAG:", "Item/Code")], { shade: true }),
+          cell([val(m.itemTag)]),
+          cell([val("--")], { colspan: 2 }),
+        ],
+      }),
     ],
   });
 }
 
-// ─── section: material info ──────────────────────────────────────────────────
+// ─── 4. CHEMICAL SECTION TITLE ───────────────────────────────────────────────
 
-function materialTable(fields: ReportTemplateFields): Table {
-  const m = fields.material;
-  return new Table({
-    width: { size: 100, type: WidthType.PERCENTAGE },
-    borders: bordered(),
-    rows: [
-      row(cell("Informações fornecidas pelo cliente: (Information supplied)", { bold: true, colspan: 6 })),
-      row(labelCell("Material:", 1), valueCell(m.specification, 5)),
-      row(labelCell("Descrição do Equipamento:", 1), valueCell(m.equipmentDescription, 5)),
-      row(
-        labelCell("Pedido:"),
-        valueCell(m.invoice),
-        labelCell("Corrida:"),
-        valueCell(m.heat),
-        labelCell("NEM:"),
-        valueCell(m.nem),
-      ),
-      row(
-        labelCell("AF:"),
-        valueCell(m.supplyAuthorization),
-        labelCell("Item/Código:"),
-        valueCell(m.itemCode),
-        labelCell("Fornecedor:"),
-        valueCell(m.supplier),
-      ),
-      row(labelCell("Projeto:", 1), valueCell(m.project, 5)),
-    ],
-  });
+function chemicalSectionTitle(): Paragraph[] {
+  return [
+    spacer(80),
+    para(
+      [
+        run("RELATÓRIO DE ENSAIOS QUÍMICOS ", { bold: true, size: SZ_NORMAL }),
+        run("(Chemical Test Report)", { italic: true, size: SZ_NORMAL }),
+      ],
+      AlignmentType.CENTER,
+    ),
+    para(
+      [
+        run("Análise Química (%) ", { bold: true, size: SZ_NORMAL }),
+        run("(Chemical Analysis)", { italic: true, size: SZ_NORMAL }),
+      ],
+      AlignmentType.CENTER,
+    ),
+    para(
+      [
+        run("RESULTADOS OBTIDOS ", { bold: true, size: SZ_NORMAL }),
+        run("(Results)", { italic: true, size: SZ_NORMAL }),
+      ],
+      AlignmentType.CENTER,
+    ),
+    spacer(40),
+  ];
 }
 
-// ─── section: chemical analysis table ───────────────────────────────────────
+// ─── 5. CHEMICAL TABLE ───────────────────────────────────────────────────────
 
-function chemicalTable(readings: ReportReading[], fields: ReportTemplateFields): Table {
-  const elements = REPORT_ELEMENTS;
+function chemicalTable(readings: ReportReading[]): Table {
+  const elCols = [...REPORT_ELEMENTS];
 
-  // header row 1 — element group headers
-  const headerRow1 = new TableRow({
+  const headerRow = new TableRow({
+    tableHeader: true,
     children: [
-      cell("PONTO", { bold: true, shade: true, rowspan: 2, align: AlignmentType.CENTER }),
-      cell("LIGA DETECTADA", { bold: true, shade: true, rowspan: 2, align: AlignmentType.CENTER }),
-      ...elements.map((el) =>
-        cell(el, { bold: true, shade: true, align: AlignmentType.CENTER }),
+      cell([para([run("PONTO", { bold: true, size: SZ_SMALL })], AlignmentType.CENTER)], { shade: true }),
+      cell([para([run("LIGA DETECTADA", { bold: true, size: SZ_SMALL })], AlignmentType.CENTER)], { shade: true }),
+      ...elCols.map((el) =>
+        cell([para([run(el, { bold: true, size: SZ_SMALL })], AlignmentType.CENTER)], { shade: true }),
       ),
-      cell("LAUDO", { bold: true, shade: true, rowspan: 2, align: AlignmentType.CENTER }),
+      cell([para([run("LAUDO", { bold: true, size: SZ_SMALL })], AlignmentType.CENTER)], { shade: true }),
     ],
   });
 
-  // spec/limits row (row 1 in the original — empty limits since we don't have them here)
-  const specRow = new TableRow({
-    children: [
-      cell("Especificação", { shade: true, align: AlignmentType.CENTER }),
-      cell(fields.material.specification || "—", { shade: true, align: AlignmentType.CENTER }),
-      ...elements.map(() => cell("—", { shade: true, align: AlignmentType.CENTER })),
-      cell("—", { shade: true, align: AlignmentType.CENTER }),
-    ],
-  });
-
-  // data rows — up to 25 slots
   const MAX_ROWS = 25;
   const dataRows: TableRow[] = [];
+
   for (let i = 0; i < MAX_ROWS; i++) {
-    const reading = readings[i];
-    if (reading) {
-      dataRows.push(
-        new TableRow({
-          children: [
-            cell(String(reading.reading_number), { align: AlignmentType.CENTER }),
-            cell(reading.alloy_1 || reading.alloy_2 || "—", { align: AlignmentType.CENTER }),
-            ...elements.map((el) =>
-              cell(fmt(reading.elements[el]?.value), { align: AlignmentType.CENTER }),
-            ),
-            cell(
-              reading.pass_fail?.trim().toUpperCase() === "A" ||
-              reading.pass_fail?.trim().toUpperCase() === "APROVADO"
-                ? "A"
-                : reading.pass_fail || "—",
-              { align: AlignmentType.CENTER },
-            ),
-          ],
-        }),
-      );
-    } else {
-      dataRows.push(
-        new TableRow({
-          children: [
-            cell("—", { align: AlignmentType.CENTER }),
-            cell("—", { align: AlignmentType.CENTER }),
-            ...elements.map(() => cell("—", { align: AlignmentType.CENTER })),
-            cell("—", { align: AlignmentType.CENTER }),
-          ],
-        }),
-      );
-    }
+    const r = readings[i];
+    dataRows.push(
+      new TableRow({
+        children: [
+          cell([val(r ? String(r.reading_number) : "", AlignmentType.CENTER)]),
+          cell([val(r ? (r.alloy_1 || r.alloy_2 || "") : "")]),
+          ...elCols.map((el) =>
+            cell([val(r ? fmt(r.elements[el]?.value) : "", AlignmentType.CENTER)]),
+          ),
+          cell([val(r ? (r.laudo || "") : "", AlignmentType.CENTER)]),
+        ],
+      }),
+    );
   }
 
   return new Table({
     width: { size: 100, type: WidthType.PERCENTAGE },
-    borders: bordered(),
-    rows: [headerRow1, specRow, ...dataRows],
+    borders: borders("all"),
+    rows: [headerRow, ...dataRows],
   });
 }
 
-// ─── section: dates and signatures ──────────────────────────────────────────
+// ─── 6. SIGNATURES & LEGAL ───────────────────────────────────────────────────
 
-function signatureTable(fields: ReportTemplateFields): Table {
-  const t = fields.test;
+const LEGAL_1 =
+  "Todos os resultados obtidos e apresentados neste relatório aplicam-se apenas as amostras analisadas, tendo significação restrita às mesmas.\n" +
+  "Os materiais analisados são preparados pelo próprio cliente, cabendo a ele a responsabilidade de apresenta-los nas condições ideais solicitadas pelo inspetor.\n" +
+  "O presente relatório só deve ser reproduzido por completo. Caso haja a necessidade de reprodução de partes do documento é necessária uma autorização por escrito do emitente.";
+
+const LEGAL_2 =
+  "Todas as Informações contidas no presente relatório são obtidas à partir dos resultados de procedimentos de inspeção/teste/calibração ou ensaios realizados em conformidade com as instruções do cliente e/ou a nossa avalição de tais resultados com base em quaisquer normas técnicas, práticas comerciais ou aduaneiras, ou outras circunstâncias que deveriam, em nossa opinião profissional, serem consideradas. Todos os resultados apresentados acima fazem referência àquilo que foi encontrado no local e data da inspeção/teste/calibração. Este relatório não libera os compradores e fornecedores das suas responsabilidades contratuais, nem prejudica o direito de reclamação do comprador contra o fornecedor ou vendedor para compensação de qualquer defeito não detectado durante nossa verificação ou que tenha ocorrido depois, seja aparente ou oculto.";
+
+function signaturesTable(f: ReportTemplateFields): Table {
+  const startDate = fmtDate(f.test.startDate);
+  const endDate = fmtDate(f.test.conclusionDate);
+
   return new Table({
     width: { size: 100, type: WidthType.PERCENTAGE },
-    borders: bordered(),
+    borders: borders("all"),
     rows: [
-      row(
-        cell(`Data de Início do Ensaio: ${fmtDate(t.startDate)}`, { bold: true }),
-        cell(`Data de Conclusão do Ensaio: ${fmtDate(t.conclusionDate)}`, { bold: true }),
-      ),
-      row(
-        cell("Flavio de Morais\nInspetor Responsável / Responsabile Inspector", {
-          align: AlignmentType.CENTER,
-        }),
-        cell("Responsável Técnico / Technical Manager", { align: AlignmentType.CENTER }),
-      ),
-      row(
-        cell(
-          "Os resultados constantes neste relatório são de exclusiva responsabilidade da J. Ometto & Cia e referem-se apenas às amostras ensaiadas. " +
-            "É proibida a reprodução parcial deste documento sem autorização da empresa emissora.",
-          { colspan: 2, size: 16 },
-        ),
-      ),
+      // Dates row
+      new TableRow({
+        children: [
+          cell(
+            [
+              para([run("Data de Início do Ensaio:", { bold: true, size: SZ_NORMAL })], AlignmentType.CENTER),
+              para([run("(Starting date of the test):", { italic: true, size: SZ_SMALL })], AlignmentType.CENTER),
+              para([run(startDate, { bold: true, size: SZ_LARGE })], AlignmentType.CENTER),
+            ],
+            { vAlign: VerticalAlign.CENTER },
+          ),
+          cell(
+            [
+              para([run("Data de Conclusão do Ensaio:", { bold: true, size: SZ_NORMAL })], AlignmentType.CENTER),
+              para([run("(Conclusion date of the test)", { italic: true, size: SZ_SMALL })], AlignmentType.CENTER),
+              para([run(endDate, { bold: true, size: SZ_LARGE })], AlignmentType.CENTER),
+            ],
+            { vAlign: VerticalAlign.CENTER },
+          ),
+        ],
+      }),
+      // Signature blank space
+      new TableRow({
+        height: { value: 1200, rule: "exact" as const },
+        children: [
+          cell([para([run("")])]),
+          cell([para([run("")])]),
+        ],
+      }),
+      // Signature labels
+      new TableRow({
+        children: [
+          cell(
+            [
+              para([run("____________________________________", { size: SZ_NORMAL })], AlignmentType.CENTER),
+              para([run("Inspetor Responsável", { bold: true, size: SZ_NORMAL })], AlignmentType.CENTER),
+              para([run("Responsabile Inspector", { italic: true, size: SZ_SMALL })], AlignmentType.CENTER),
+            ],
+            { vAlign: VerticalAlign.CENTER },
+          ),
+          cell(
+            [
+              para([run("____________________________________", { size: SZ_NORMAL })], AlignmentType.CENTER),
+              para([run("Responsável Técnico", { bold: true, size: SZ_NORMAL })], AlignmentType.CENTER),
+              para([run("Technical Manager", { italic: true, size: SZ_SMALL })], AlignmentType.CENTER),
+            ],
+            { vAlign: VerticalAlign.CENTER },
+          ),
+        ],
+      }),
+      // Legal text 1
+      new TableRow({
+        children: [
+          cell(
+            [para([run(LEGAL_1, { size: SZ_SMALL })], AlignmentType.JUSTIFIED)],
+            { colspan: 2 },
+          ),
+        ],
+      }),
+      // Legal text 2
+      new TableRow({
+        children: [
+          cell(
+            [para([run(LEGAL_2, { size: SZ_SMALL })], AlignmentType.JUSTIFIED)],
+            { colspan: 2 },
+          ),
+        ],
+      }),
+      // FIM DO RELATÓRIO
+      new TableRow({
+        children: [
+          cell(
+            [para([run("________________________________________FIM DO RELATÓRIO_______________________________________", { bold: true, size: SZ_NORMAL })], AlignmentType.CENTER)],
+            { colspan: 2 },
+          ),
+        ],
+      }),
     ],
   });
 }
 
-// ─── section: equipment and conditions ──────────────────────────────────────
-
-function equipmentTable(fields: ReportTemplateFields): Table {
-  const t = fields.test;
-  return new Table({
-    width: { size: 100, type: WidthType.PERCENTAGE },
-    borders: bordered(),
-    rows: [
-      row(
-        labelCell("Interpretação:", 1),
-        valueCell(t.interpretation, 3),
-        labelCell("TP.:"),
-        valueCell("N/A"),
-      ),
-      row(cell("Notas: A = Aprovado  |  NA = Não Aprovado  |  ND = Não Detectado", { colspan: 6, size: 16 })),
-      row(
-        labelCell("Equipamentos — Tipo:"),
-        valueCell(t.equipmentType),
-        labelCell("Marca:"),
-        valueCell(t.brand),
-        labelCell("Modelo:"),
-        valueCell(t.model),
-      ),
-      row(
-        labelCell("N° de Série:", 1),
-        valueCell(t.serialNumber, 1),
-        labelCell("Calibração:", 1),
-        valueCell(t.calibration, 3),
-      ),
-      row(labelCell("Procedimento de Ensaio:", 1), valueCell(t.procedure, 5)),
-      row(
-        labelCell("Temperatura da Superfície:"),
-        valueCell(t.surfaceTemperature),
-        labelCell("Tempo de Exposição:"),
-        valueCell(t.expositionTime),
-        labelCell("Cond. Superficiais:"),
-        valueCell(t.surfaceConditions),
-      ),
-      row(
-        labelCell("Limpeza da Superfície:"),
-        valueCell(t.surfaceCleaning),
-        labelCell("Nome da Instalação:"),
-        valueCell(t.installationName, 3),
-      ),
-      row(labelCell("Local do Ensaio (Customer Site):", 1), valueCell(t.customerSite, 5)),
-      row(labelCell("Observações:", 1), valueCell(t.observations || "—", 5)),
-    ],
-  });
-}
-
-// ─── section title paragraph ─────────────────────────────────────────────────
-
-function sectionTitle(text: string): Paragraph {
-  return new Paragraph({
-    alignment: AlignmentType.CENTER,
-    children: [new TextRun({ text, bold: true, size: 20, font: "Arial" })],
-    spacing: { before: 120, after: 60 },
-  });
-}
-
-function spacer(): Paragraph {
-  return new Paragraph({ children: [new TextRun({ text: "" })] });
-}
-
-// ─── main export ─────────────────────────────────────────────────────────────
+// ─── MAIN EXPORT ─────────────────────────────────────────────────────────────
 
 export async function generateReportDocx(
   readings: ReportReading[],
@@ -348,9 +388,7 @@ export async function generateReportDocx(
   const doc = new Document({
     styles: {
       default: {
-        document: {
-          run: { font: "Arial", size: 18 },
-        },
+        document: { run: { font: FONT, size: SZ_NORMAL } },
       },
     },
     sections: [
@@ -358,30 +396,23 @@ export async function generateReportDocx(
         properties: {
           page: {
             margin: {
-              top: convertInchesToTwip(0.6),
-              right: convertInchesToTwip(0.6),
-              bottom: convertInchesToTwip(0.6),
-              left: convertInchesToTwip(0.6),
+              top: convertInchesToTwip(0.5),
+              right: convertInchesToTwip(0.5),
+              bottom: convertInchesToTwip(0.5),
+              left: convertInchesToTwip(0.5),
             },
           },
         },
         children: [
           headerTable(fields),
-          spacer(),
-          ...companyParagraphs(),
-          spacer(),
+          spacer(80),
           clientTable(fields),
-          spacer(),
+          spacer(80),
           materialTable(fields),
-          spacer(),
-          sectionTitle(
-            "RELATÓRIO DE ENSAIOS QUÍMICOS (Chemical Test Report)\nAnálise Química (%) – Chemical Analysis (%)",
-          ),
-          chemicalTable(readings, fields),
-          spacer(),
-          signatureTable(fields),
-          spacer(),
-          equipmentTable(fields),
+          ...chemicalSectionTitle(),
+          chemicalTable(readings),
+          spacer(80),
+          signaturesTable(fields),
         ],
       },
     ],

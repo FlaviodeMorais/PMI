@@ -441,6 +441,23 @@
   background: #fff;
 }
 
+.ghostButton {
+  flex: 0 0 auto;
+  border: none;
+  color: #94a3b8;
+  background: transparent;
+  cursor: pointer;
+  font: inherit;
+  font-size: 12px;
+  padding: 8px 10px;
+  border-radius: 10px;
+}
+
+.ghostButton:hover {
+  color: #ef4444;
+  background: #fff1f2;
+}
+
 .importPanel {
   display: grid;
   grid-template-columns: 1fr auto;

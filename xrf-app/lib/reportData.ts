@@ -23,11 +23,9 @@ export interface ReportTemplateFields {
   report: {
     number: string;
     revision: string;
-    issueType: string;
   };
   client: {
     company: string;
-    address: string;
     zipCode: string;
     city: string;
     country: string;
@@ -37,27 +35,11 @@ export interface ReportTemplateFields {
     equipmentDescription: string;
     invoice: string;
     heat: string;
-    nem: string;
+    itemId: string;
     supplyAuthorization: string;
-    itemCode: string;
-    supplier: string;
-    project: string;
+    itemTag: string;
   };
   test: {
-    interpretation: string;
-    procedure: string;
-    equipmentType: string;
-    brand: string;
-    model: string;
-    serialNumber: string;
-    calibration: string;
-    surfaceTemperature: string;
-    expositionTime: string;
-    surfaceConditions: string;
-    surfaceCleaning: string;
-    installationName: string;
-    customerSite: string;
-    observations: string;
     startDate: string;
     conclusionDate: string;
   };
